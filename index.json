@@ -1,0 +1,23 @@
+{
+  "$schema_version": 1,
+  "modules": [
+    {
+      "id": "media-player",
+      "name": "Media Player",
+      "category": "Media",
+      "description": "VLC-powered music and video player with a SQLite-indexed library, artist/folder browser, and live folder watching.",
+      "author": "Zyvelia",
+      "version": "1.0.0",
+      "download_url": "https://github.com/Zyvelia/zmt-marketplace/releases/download/1.0.0/media-player-1.0.0.zip",
+      "sha256": "3e3323623e19fc94c146be7d3f1dc4fedb218d4f492f3e3a527ee7ffcc761c02",
+      "icon": "🎵",
+      "rating": 0.0,
+      "downloads": 0,
+      "verified": false,
+      "permissions": ["filesystem", "network", "external_program"],
+      "homepage": "",
+      "min_app_version": "1.0.0",
+      "tags": ["media", "music", "video", "player"]
+    }
+  ]
+}
