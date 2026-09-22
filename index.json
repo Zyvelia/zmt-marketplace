@@ -1,6 +1,6 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-09-21T19:18:39.928304+00:00",
+  "updated": "2026-09-22T00:53:08.748977+00:00",
   "modules": [
     {
       "id": "ai-chat",
@@ -19,6 +19,699 @@
           "published_at": "2026-09-21T19:18:39.819860+00:00",
           "sha256": "898cff6ddbf7924aa7b0864babc2e8d8cff2b99a218425dc6d80fae8a4a09030",
           "file": "packages/ai-chat/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "app-installer",
+      "name": "App Installer",
+      "category": "Utilities",
+      "desc": "Search and install apps via winget, or run your own custom install commands.",
+      "icon": "\ud83d\udce6",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:39:37.069871+00:00",
+          "sha256": "265bedc4f57fd4d451532001bcb691805e6670ab50aae15b06e3a9de465f01ea",
+          "file": "packages/app-installer/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "disposable-sandbox",
+      "name": "Disposable Sandbox",
+      "category": "System",
+      "desc": "Linked-clone a VMware snapshot, share a read-only drop folder, then delete the clone when it powers off.",
+      "icon": "\ud83e\uddca",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:40:10.771906+00:00",
+          "sha256": "52f674546f16cfaf08da679918a3b69e1243631a97915f837ec1de92c6dcba5b",
+          "file": "packages/disposable-sandbox/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "time-travel",
+      "name": "Time Travel",
+      "category": "System",
+      "desc": "Timeline of GSM backups, save zips, AppData files, and Windows VSS shadows.",
+      "icon": "\u23ea",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:41:00.206131+00:00",
+          "sha256": "35e4cc1fb8423bad02b9df0153ece021834dd153bfed97e753786c047cb8f8a9",
+          "file": "packages/time-travel/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "driver-update-checker",
+      "name": "Driver/Update Checker",
+      "category": "System",
+      "desc": "Review installed drivers and check for driver and software updates.",
+      "icon": "\ud83d\udd27",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:41:19.208885+00:00",
+          "sha256": "e1dc2a2429575a1ff925c5a40a74c391b81933285298800b0453d971d21e424b",
+          "file": "packages/driver-update-checker/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "environment-checker",
+      "name": "Environment Checker",
+      "category": "System",
+      "desc": "See what's installed for this app \u2014 VLC, Tailscale, WebView2, and more.",
+      "icon": "\ud83e\ude7a",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:41:37.870152+00:00",
+          "sha256": "50ca4fbde3dccb7bff91ea1721e6b6a43c07f7e8a602a90dd41e16d26448bcfe",
+          "file": "packages/environment-checker/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "system-monitor",
+      "name": "System Monitor",
+      "category": "System",
+      "desc": "Live system statistics",
+      "icon": "\ud83d\udda5\ufe0f",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:42:12.133948+00:00",
+          "sha256": "7ea3acce37ff4afba931646943507f043052e1daf42780e104f16d6b466bd07c",
+          "file": "packages/system-monitor/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "security-center",
+      "name": "Security Center",
+      "category": "Security",
+      "desc": "Breach checks (HIBP) + vault password audit \u2014 weak, reused, and leaked passwords.",
+      "icon": "\ud83d\udee1",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:45:18.183030+00:00",
+          "sha256": "94d77bf17141d560b38abdeebe055e7c9dd744a44c631f0ba0257459e975d281",
+          "file": "packages/security-center/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "file-encryption",
+      "name": "File Encryption",
+      "category": "Security",
+      "desc": "Encrypt and decrypt files to keep their contents private.",
+      "icon": "\ud83d\udd12",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:45:31.727974+00:00",
+          "sha256": "a8b476b5ccb593ccb52e8e6ea223b4cedaf06a45c26ba0009efa60b8f4d5ad13",
+          "file": "packages/file-encryption/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "secure-vault",
+      "name": "Secure Vault",
+      "category": "Security",
+      "desc": "Encrypted passwords and authenticator (2FA) codes, in one place.",
+      "icon": "\ud83d\udd10",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:45:42.124924+00:00",
+          "sha256": "3b59a70674120aaebe6b5bb6d311bf42b52309bbc6c6213dfc41111024477520",
+          "file": "packages/secure-vault/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "name": "Notes",
+      "category": "Productivity",
+      "desc": "Free-form notes with attached links",
+      "icon": "\ud83d\udcdd",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:45:59.133235+00:00",
+          "sha256": "bf2ed314c26ec4caba80a51a38d687e5cd994bae81adce322695ce84b847530d",
+          "file": "packages/notes/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "clipboard-manager",
+      "name": "Clipboard Manager",
+      "category": "Productivity",
+      "desc": "Tracks your clipboard history \u2014 search, pin, and re-copy past items.",
+      "icon": "\ud83d\udccb",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:46:08.514765+00:00",
+          "sha256": "23fb4084dce472a56b0e41a6ba59a7c40aa271b3814c48316bf3d4bdec7a4b58",
+          "file": "packages/clipboard-manager/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "ssh-serial",
+      "name": "SSH / Serial",
+      "category": "Network",
+      "desc": "SSH into a box or open a COM serial console from this app.",
+      "icon": "\ud83d\udda5",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:46:16.436573+00:00",
+          "sha256": "34a2257da3db32c08530492025560ba3465c176c1f5f35b0a52f397c62840b85",
+          "file": "packages/ssh-serial/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "network-auditor",
+      "name": "Network Auditor",
+      "category": "Network",
+      "desc": "Discover devices, scan ports, and analyze network security.",
+      "icon": "\ud83c\udf10",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:46:27.643337+00:00",
+          "sha256": "c944806dd8aa9baee6aa5bc06070b3a7a2707d02385abe1bdbd794c9ecf17873",
+          "file": "packages/network-auditor/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "port-forward-helper",
+      "name": "Port Forward Helper",
+      "category": "Network",
+      "desc": "Detect your router via UPnP and add/remove port forwards without the admin page.",
+      "icon": "\ud83d\udd00",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:46:41.384683+00:00",
+          "sha256": "3e6a93feb7053559a5946c01b925fd9947fdc54e128e16b8f8f0477c77068b9b",
+          "file": "packages/port-forward-helper/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "quick-send",
+      "name": "Quick Send",
+      "category": "Network",
+      "desc": "Send files between your phone and this PC",
+      "icon": "\ud83d\udce4",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:49:37.257884+00:00",
+          "sha256": "2a8473e968eaa470de0af923ce386288efcfd08e8e5a52d323bc57bce0959450",
+          "file": "packages/quick-send/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "remote-hub",
+      "name": "Remote Hub",
+      "category": "Network",
+      "desc": "One phone-friendly page linking to Music Player, Security Vault, and YouTube Downloader over Tailscale",
+      "icon": "\ud83d\udce1",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:49:56.119955+00:00",
+          "sha256": "179c57686c2b9fcd2ef3425189f46c06669dfd469b7285ee569e473c037bb35a",
+          "file": "packages/remote-hub/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "mangadex-reader",
+      "name": "MangaDex Reader",
+      "category": "Media",
+      "desc": "Search, read, and download MangaDex chapters. OCR + voice + translate on the page for untranslated scans.",
+      "icon": "\ud83d\udcd6",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:50:13.716136+00:00",
+          "sha256": "9b6662bfbaaec59e617e6548ce567604a42189259ac55ec26a16337c7909c23c",
+          "file": "packages/mangadex-reader/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "media-metadata-editor",
+      "name": "Media Metadata Editor",
+      "category": "Media",
+      "desc": "Edit audio tags, image EXIF fields, and file timestamps",
+      "icon": "\ud83c\udff7\ufe0f",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:50:24.591629+00:00",
+          "sha256": "11ba5e500120914f7cbb175c6ab9ee32fce5456a1923e775d61cd495f33084ee",
+          "file": "packages/media-metadata-editor/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "media-player",
+      "name": "Media Player",
+      "category": "Media",
+      "desc": "VLC-powered music and video player with a SQLite-indexed library",
+      "icon": "\ud83c\udfb5",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:50:33.224378+00:00",
+          "sha256": "72980281c9036b5bdb3d366b08defea0c78973ce3b871969d93ad6e4bbfef6f4",
+          "file": "packages/media-player/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "video-to-gif-converter",
+      "name": "Video to GIF Converter",
+      "category": "Media",
+      "desc": "Convert video files to optimized GIFs \u2014 no command line.",
+      "icon": "\ud83c\udf9e",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:50:46.760443+00:00",
+          "sha256": "dd17fc70f7253967bcbc84763643577c64ee54f44135f59cfc62588f62ea1dba",
+          "file": "packages/video-to-gif-converter/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "media-downloader",
+      "name": "Media Downloader",
+      "category": "Media",
+      "desc": "Download from YouTube, TikTok, SoundCloud, and 1000+ sites as MP3 or MP4",
+      "icon": "\u25b6",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:50:57.026029+00:00",
+          "sha256": "0c958333217e96c489a1b6bbd6fab71b3bb19061f109f5832145eb8a5c7dcdfc",
+          "file": "packages/media-downloader/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "soundboard",
+      "name": "Soundboard",
+      "category": "Media",
+      "desc": "Play sounds through your mic or audio device",
+      "icon": "\ud83d\udd0a",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:51:15.080909+00:00",
+          "sha256": "9c6f08cbe862adfb9e1fddf737c078ec339d9bad11857f20ad6c1d0fc08f5187",
+          "file": "packages/soundboard/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "game-server-manager",
+      "name": "Game Server Manager",
+      "category": "Gaming",
+      "desc": "Universal dedicated server manager \u2014 Minecraft, Rust, ARK, CS2, Factorio, 7 Days to Die, Enshrouded, V Rising, DST, Conan Exiles, Soulmask, Satisfactory, Terraria, Valheim, Palworld, Project Zomboid, SteamCMD, and custom servers.",
+      "icon": "\ud83c\udfae",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:51:27.596634+00:00",
+          "sha256": "3bf0fb7398d8e362b5b1f3d186df8514cbc1ac9fdcb34fd4fa39274583e68f36",
+          "file": "packages/game-server-manager/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "gaming-hub",
+      "name": "Gaming Hub",
+      "category": "Gaming",
+      "desc": "Scan, launch and manage games.",
+      "icon": "\ud83c\udfae",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:51:45.398765+00:00",
+          "sha256": "5c6afa28c283b72b12d1dcc4dff5edf5475742431fb5a7ecce8bc38aea6ca6cb",
+          "file": "packages/gaming-hub/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "file-manager",
+      "name": "File Manager",
+      "category": "Files",
+      "desc": "View, edit and manage any file \u2014 text, hex, images, audio, archives.",
+      "icon": "\ud83d\udcc1",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:51:58.795733+00:00",
+          "sha256": "33915f455e554a42c5cef03952d76f66ecc86384d09f3f4c9e002859c13e9d4e",
+          "file": "packages/file-manager/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "file-shredder",
+      "name": "File Shredder",
+      "category": "Files",
+      "desc": "Securely overwrite and delete files and folders so they can't be recovered.",
+      "icon": "\ud83d\uddd1",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:52:06.703859+00:00",
+          "sha256": "07ff8672d54944d50f3a2aa74805170ccffc735a6ef24d84211efb172ecb2938",
+          "file": "packages/file-shredder/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "folder-generator",
+      "name": "Folder Generator",
+      "category": "Files",
+      "desc": "Create predefined folder structures for games from JSON templates.",
+      "icon": "\ud83d\uddc2",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:52:18.797981+00:00",
+          "sha256": "2fb42dc8360408578e4d2cd444cb62c5458912193808b159e6d918f6f573902f",
+          "file": "packages/folder-generator/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "hash-tools",
+      "name": "Hash Tools",
+      "category": "Security",
+      "desc": "Generate and verify hashes",
+      "icon": "\ud83d\udd0d",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:52:30.717248+00:00",
+          "sha256": "0a7e8230c59d876ff46ed20e1a815a6dc800e1b32354f4f4a6dd0ca354c0dbd7",
+          "file": "packages/hash-tools/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "save-editor",
+      "name": "Save Editor",
+      "category": "Files",
+      "desc": "Open, inspect, and edit game save files \u2014 JSON, XML, YAML, INI, compressed/encoded/encrypted saves, and any unrecognized binary save (readable-text view, value search, and custom named-field layouts).",
+      "icon": "\ud83d\udcbe",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:52:38.479255+00:00",
+          "sha256": "ba3e601902a71eba6d0aeafa9e5504db69037799ec5644585794d5239623e095",
+          "file": "packages/save-editor/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "module-development-guide",
+      "name": "Module Development Guide",
+      "category": "Developer",
+      "desc": "Learn how to create, test, and submit modules for Z's Multi Tool.",
+      "icon": "\ud83d\udcd6",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:52:47.461497+00:00",
+          "sha256": "7a51451c4019906a9918431a79cfa376200f0b10fdaea3497c98863ab8045f37",
+          "file": "packages/module-development-guide/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "color-picker",
+      "name": "Color Picker",
+      "category": "Design",
+      "desc": "Pick a color by hex/RGB/HSV or an on-screen eyedropper, and generate harmony palettes from it.",
+      "icon": "\ud83c\udfa8",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:52:54.285046+00:00",
+          "sha256": "83c64eed7e39a14757a7dff7efbd52578410a1ee698ce8fec2b064a62c878c8b",
+          "file": "packages/color-picker/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "icon-favicon-generator",
+      "name": "Icon/Favicon Generator",
+      "category": "Design",
+      "desc": "Turn one image into a full favicon.ico + PNG icon set + site.webmanifest.",
+      "icon": "\ud83e\udde9",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:53:01.099468+00:00",
+          "sha256": "612ca9b5eb7d8cdc196b7164030ee4f9e1519efac172014bca4e7a1261f088e2",
+          "file": "packages/icon-favicon-generator/build-1.zmod",
+          "author": "Zyvelia"
+        }
+      ]
+    },
+    {
+      "id": "image-palette-extractor",
+      "name": "Image Palette Extractor",
+      "category": "Design",
+      "desc": "Pull the dominant colors out of any image as copyable hex/RGB swatches.",
+      "icon": "\ud83d\uddbc\ufe0f",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-22",
+          "published_at": "2026-09-22T00:53:08.530354+00:00",
+          "sha256": "dfc741d67ae168baf6017a66420341375d65e80c7fb324837ce85d00b2549f6c",
+          "file": "packages/image-palette-extractor/build-1.zmod",
           "author": "Zyvelia"
         }
       ]
