@@ -1,6 +1,6 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-09-24T03:48:19.997571+00:00",
+  "updated": "2026-09-24T20:40:08.525835+00:00",
   "modules": [
     {
       "id": "ai-chat",
@@ -2997,48 +2997,6 @@
       ]
     },
     {
-      "id": "media-downloader",
-      "name": "Media Downloader",
-      "category": "Media",
-      "desc": "Download from YouTube, TikTok, SoundCloud, and 1000+ sites as MP3 or MP4",
-      "icon": "\u25b6",
-      "publisher": "official",
-      "author": "Zyvelia",
-      "latest_build": 1,
-      "min_app_version": "4.0.5",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-09-24",
-          "published_at": "2026-09-24T03:47:54.325254+00:00",
-          "sha256": "9c6e066cf9e1092a9978919f9a3679ac51a039712bb79119ee58bae5807af528",
-          "file": "packages/media-downloader/build-1.zmod",
-          "author": "Zyvelia",
-          "python_dependencies": {
-            "mutagen": "==1.48.1",
-            "youtube_dl": "",
-            "yt-dlp": ""
-          },
-          "bundled_python_dependencies": [
-            {
-              "file": "dependencies/mutagen-1.48.1-py3-none-any.whl",
-              "sha256": "4f077fe87d3fc7fba259aa63d8c026b18382ca6a42ef37c61e16f1b1b5b82fe7"
-            },
-            {
-              "file": "dependencies/youtube_dl-2021.12.17-py2.py3-none-any.whl",
-              "sha256": "f1336d5de68647e0364a47b3c0712578e59ec76f02048ff5c50ef1c69d79cd55"
-            },
-            {
-              "file": "dependencies/yt_dlp-2026.8.19-py3-none-any.whl",
-              "sha256": "1d57897e94c6665a0a6f9bc54b34e584284e32c034ffab3a7df25d8f7b24eedf"
-            }
-          ],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
       "id": "soundboard",
       "name": "Soundboard",
       "category": "Media",
@@ -3443,6 +3401,77 @@
             {
               "file": "dependencies/qrcode-8.2-py3-none-any.whl",
               "sha256": "16e64e0716c14960108e85d853062c9e8bba5ca8252c0b4d0231b9df4060ff4f"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "media-downloader",
+      "name": "Media Downloader",
+      "category": "Media",
+      "desc": "Download from YouTube, TikTok, SoundCloud, and 1000+ sites as MP3 or MP4",
+      "icon": "\u25b6",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 2,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:47:54.325254+00:00",
+          "sha256": "9c6e066cf9e1092a9978919f9a3679ac51a039712bb79119ee58bae5807af528",
+          "file": "packages/media-downloader/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "mutagen": "==1.48.1",
+            "youtube_dl": "",
+            "yt-dlp": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/mutagen-1.48.1-py3-none-any.whl",
+              "sha256": "4f077fe87d3fc7fba259aa63d8c026b18382ca6a42ef37c61e16f1b1b5b82fe7"
+            },
+            {
+              "file": "dependencies/youtube_dl-2021.12.17-py2.py3-none-any.whl",
+              "sha256": "f1336d5de68647e0364a47b3c0712578e59ec76f02048ff5c50ef1c69d79cd55"
+            },
+            {
+              "file": "dependencies/yt_dlp-2026.8.19-py3-none-any.whl",
+              "sha256": "1d57897e94c6665a0a6f9bc54b34e584284e32c034ffab3a7df25d8f7b24eedf"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T20:40:08.346085+00:00",
+          "sha256": "6a60be445a02f301ad2da2170e80a4c79230d14cacf27c37a53507ef658bb975",
+          "file": "packages/media-downloader/build-2.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "mutagen": "==1.48.1",
+            "youtube_dl": "==2021.12.17",
+            "yt-dlp": "==2026.8.19"
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/mutagen-1.48.1-py3-none-any.whl",
+              "sha256": "4f077fe87d3fc7fba259aa63d8c026b18382ca6a42ef37c61e16f1b1b5b82fe7"
+            },
+            {
+              "file": "dependencies/youtube_dl-2021.12.17-py2.py3-none-any.whl",
+              "sha256": "f1336d5de68647e0364a47b3c0712578e59ec76f02048ff5c50ef1c69d79cd55"
+            },
+            {
+              "file": "dependencies/yt_dlp-2026.8.19-py3-none-any.whl",
+              "sha256": "1d57897e94c6665a0a6f9bc54b34e584284e32c034ffab3a7df25d8f7b24eedf"
             }
           ],
           "native_dependencies": {},
