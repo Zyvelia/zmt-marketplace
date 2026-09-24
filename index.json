@@ -1,6 +1,6 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-09-24T20:46:30.869483+00:00",
+  "updated": "2026-09-24T22:22:25.703834+00:00",
   "modules": [
     {
       "id": "ai-chat",
@@ -570,31 +570,6 @@
           "published_at": "2026-09-24T20:44:58.410735+00:00",
           "sha256": "7373b7e9a70fc77195ca19d5d8d72848d3c11fa46cf9221801a0866932082455",
           "file": "packages/file-encryption/build-1.zmod",
-          "author": "Zyvelia",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "secure-vault",
-      "name": "Secure Vault",
-      "category": "Security",
-      "desc": "Encrypted passwords and authenticator (2FA) codes, in one place.",
-      "icon": "\ud83d\udd10",
-      "publisher": "official",
-      "author": "Zyvelia",
-      "latest_build": 1,
-      "min_app_version": "4.0.5",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-09-24",
-          "published_at": "2026-09-24T20:44:58.814565+00:00",
-          "sha256": "4dd8f510f439d0a61e16e8a0e43ebf4c339201e95cd7f3e3a597f72b7e6e137b",
-          "file": "packages/secure-vault/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
           "bundled_python_dependencies": [],
@@ -3445,6 +3420,43 @@
               "sha256": "16e64e0716c14960108e85d853062c9e8bba5ca8252c0b4d0231b9df4060ff4f"
             }
           ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "secure-vault",
+      "name": "Secure Vault",
+      "category": "Security",
+      "desc": "Encrypted passwords and authenticator (2FA) codes, in one place.",
+      "icon": "\ud83d\udd10",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 2,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T20:44:58.814565+00:00",
+          "sha256": "4dd8f510f439d0a61e16e8a0e43ebf4c339201e95cd7f3e3a597f72b7e6e137b",
+          "file": "packages/secure-vault/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T22:22:25.586069+00:00",
+          "sha256": "316b84db1058da15cad73c33c0af3b6ed3b597f8cf8c7422a6348e2d2717162b",
+          "file": "packages/secure-vault/build-2.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
         }
