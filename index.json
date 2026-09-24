@@ -1,7 +1,1051 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-09-24T01:08:24.423854+00:00",
+  "updated": "2026-09-24T03:48:19.997571+00:00",
   "modules": [
+    {
+      "id": "ai-chat",
+      "name": "AI Chat",
+      "category": "AI",
+      "desc": "One chat for a hosted API or a local Ollama / llama.cpp model. Agent mode can run app actions (game servers, notes, messages, stats). /build generates projects.",
+      "icon": "\ud83e\udd16",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:28.063244+00:00",
+          "sha256": "11cf064b4cd91b393aebe3ae1b3bfc06f9b3eb72fb33c7183e7aa5ba28f2a584",
+          "file": "packages/ai-chat/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "firebase-admin": "==7.6.0",
+            "openai": "==3.18.0",
+            "psutil": "==7.2.2",
+            "pyperclip": "==1.11.0",
+            "requests": "==2.34.2"
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/annotated_types-0.8.0-py3-none-any.whl",
+              "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0"
+            },
+            {
+              "file": "dependencies/anyio-4.15.1-py3-none-any.whl",
+              "sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101"
+            },
+            {
+              "file": "dependencies/cachecontrol-0.14.4-py3-none-any.whl",
+              "sha256": "b7ac014ff72ee199b5f8af1de29d60239954f223e948196fa3d84adaffc71d2b"
+            },
+            {
+              "file": "dependencies/certifi-2026.7.22-py3-none-any.whl",
+              "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
+            },
+            {
+              "file": "dependencies/cffi-2.1.1-cp314-cp314-win_amd64.whl",
+              "sha256": "3222ba5d678f80a030e6afbcc33dc1ae5cb45facabb61cee2c7016b8432fde48"
+            },
+            {
+              "file": "dependencies/charset_normalizer-3.5.1-cp314-cp314-win_amd64.whl",
+              "sha256": "c658c50ac0c98cd755a2dd50b7977d3bca7df401dcc47fbdfa87db53ef7d4e8b"
+            },
+            {
+              "file": "dependencies/cryptography-50.0.1-cp311-abi3-win_amd64.whl",
+              "sha256": "aed8db4f6d71c51efb89530e12d9464e7bf2923d46c3205dc794a2a93f8c0648"
+            },
+            {
+              "file": "dependencies/firebase_admin-7.6.0-py3-none-any.whl",
+              "sha256": "2ec5a05eb53f3010e94179ba11c03d9db2679791c06762b70f10a0fcf86de88d"
+            },
+            {
+              "file": "dependencies/google_api_core-2.38.0-py3-none-any.whl",
+              "sha256": "8db2730375eba434bd75041fbe06b5374287407689ce132ac5650c8c8f042fcc"
+            },
+            {
+              "file": "dependencies/google_auth-2.58.0-py3-none-any.whl",
+              "sha256": "8a9c4645bb4c8e91668fb1934b95ae6a8687084232753639220ba9bf04a1610d"
+            },
+            {
+              "file": "dependencies/google_cloud_core-2.7.0-py3-none-any.whl",
+              "sha256": "c18a250904cfdda021eb3ae8b8238c9f9ca272a4cbbfb5cba946b3fe3022eed1"
+            },
+            {
+              "file": "dependencies/google_cloud_firestore-2.31.0-py3-none-any.whl",
+              "sha256": "4101b832b666481c51c6828790afccdc8f71c64542556bcc89ff995be9f62ec7"
+            },
+            {
+              "file": "dependencies/google_cloud_storage-3.14.1-py3-none-any.whl",
+              "sha256": "8f0fe2b74bd80ddcbd67247a3b47b81035a0a4f448569ed358fa40a46c940118"
+            },
+            {
+              "file": "dependencies/google_crc32c-1.8.0-cp314-cp314-win_amd64.whl",
+              "sha256": "d511b3153e7011a27ab6ee6bb3a5404a55b994dc1a7322c0b87b29606d9790e2"
+            },
+            {
+              "file": "dependencies/google_resumable_media-2.10.2-py3-none-any.whl",
+              "sha256": "e3cedc827a4ea41e216582d74346f1fb9fceb625a8c3c53912f2ca1d663334d7"
+            },
+            {
+              "file": "dependencies/googleapis_common_protos-1.75.3-py3-none-any.whl",
+              "sha256": "a018d2bf098ca9fb6faa08d5bb780e2a2c2f73c566f069761331386c9596d3f2"
+            },
+            {
+              "file": "dependencies/grpcio-1.84.0-cp314-cp314-win_amd64.whl",
+              "sha256": "800b7e00d92553313c0463c200087930aa78678ec1d528193aeb50906f55989b"
+            },
+            {
+              "file": "dependencies/grpcio_status-1.84.0-py3-none-any.whl",
+              "sha256": "0c182ca0d6e60acbfd0e14499cf39a155e4827a1c3fd9f7638e49af15a74c30a"
+            },
+            {
+              "file": "dependencies/h11-0.16.0-py3-none-any.whl",
+              "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86"
+            },
+            {
+              "file": "dependencies/h2-4.4.1-py3-none-any.whl",
+              "sha256": "0e25f1462b23c9cb82d9eb02e28bc706dac2a68cb457c6a0d74d63c8a2a5d0e6"
+            },
+            {
+              "file": "dependencies/hpack-4.2.0-py3-none-any.whl",
+              "sha256": "858ac0b02280fa582b5080d68db0899c62a80375e0e5413a74970c5e518b6986"
+            },
+            {
+              "file": "dependencies/httpcore-1.0.9-py3-none-any.whl",
+              "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55"
+            },
+            {
+              "file": "dependencies/httpcore2-2.13.1-py3-none-any.whl",
+              "sha256": "e1e05d4f25f7d7d496bfb96748f6f4b67657b03da069b3a68c36069f3db73d0a"
+            },
+            {
+              "file": "dependencies/httpx-0.28.1-py3-none-any.whl",
+              "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad"
+            },
+            {
+              "file": "dependencies/httpx2-2.13.1-py3-none-any.whl",
+              "sha256": "6dff50fabc270ee5fd25d845d0b078ed20564579744d6d962850975996d2f9a4"
+            },
+            {
+              "file": "dependencies/hyperframe-6.1.0-py3-none-any.whl",
+              "sha256": "b03380493a519fce58ea5af42e4a42317bf9bd425596f7a0835ffce80f1a42e5"
+            },
+            {
+              "file": "dependencies/idna-3.20-py3-none-any.whl",
+              "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+            },
+            {
+              "file": "dependencies/jiter-0.17.0-cp314-cp314-win_amd64.whl",
+              "sha256": "ac3c6ee3264d6f5c44c617f90bc7e8b9e1587e7d6708c9d8f811cb65582ee312"
+            },
+            {
+              "file": "dependencies/msgpack-1.2.2-cp314-cp314-win_amd64.whl",
+              "sha256": "1510f24612d4b983dff6935d9273e02c320cfd525727fbcb58836a75f589fdbc"
+            },
+            {
+              "file": "dependencies/openai-3.18.0-py3-none-any.whl",
+              "sha256": "31f170b59865cbf35ceb15699bd33b190fa660eb2f36591c74a161afc67152e7"
+            },
+            {
+              "file": "dependencies/opentelemetry_api-1.44.0-py3-none-any.whl",
+              "sha256": "94b98c893a91b88657eaac1e3ba89618cdb85be6918196705354f34728b2cdef"
+            },
+            {
+              "file": "dependencies/proto_plus-1.28.4-py3-none-any.whl",
+              "sha256": "4b01341272f8a348db3f003b6143109f83ab43091019d5181b3fcdf500ab32aa"
+            },
+            {
+              "file": "dependencies/protobuf-7.36.2-cp310-abi3-win_amd64.whl",
+              "sha256": "a300819d441e078a5608c0d3c709796bb548136058fda017ae51d425b44fd353"
+            },
+            {
+              "file": "dependencies/psutil-7.2.2-cp37-abi3-win_amd64.whl",
+              "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988"
+            },
+            {
+              "file": "dependencies/pyasn1-0.6.4-py3-none-any.whl",
+              "sha256": "deda9277cfd454080ec40b207fb6df82206a3a2688735233cdcd8d3d565f088b"
+            },
+            {
+              "file": "dependencies/pyasn1_modules-0.4.2-py3-none-any.whl",
+              "sha256": "29253a9207ce32b64c3ac6600edc75368f98473906e8fd1043bd6b5b1de2c14a"
+            },
+            {
+              "file": "dependencies/pycparser-3.0-py3-none-any.whl",
+              "sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"
+            },
+            {
+              "file": "dependencies/pydantic-2.13.5-py3-none-any.whl",
+              "sha256": "346a034f080da3755d8e9cb5e00e8b07de1d39e4f6e2c87d8ab7cafa0b269a73"
+            },
+            {
+              "file": "dependencies/pydantic_core-2.46.5-cp314-cp314-win_amd64.whl",
+              "sha256": "fa10ef4112775900e7a0661068635eb67b2ab824fbde764de6e0e21982a93db0"
+            },
+            {
+              "file": "dependencies/pyjwt-2.15.0-py3-none-any.whl",
+              "sha256": "7a3742debf6b879e912dbb9819ceec1594be812452b78c5f2e2dfc56564954f8"
+            },
+            {
+              "file": "dependencies/pyperclip-1.11.0-py3-none-any.whl",
+              "sha256": "299403e9ff44581cb9ba2ffeed69c7aa96a008622ad0c46cb575ca75b5b84273"
+            },
+            {
+              "file": "dependencies/requests-2.34.2-py3-none-any.whl",
+              "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+            },
+            {
+              "file": "dependencies/sniffio-1.3.1-py3-none-any.whl",
+              "sha256": "2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2"
+            },
+            {
+              "file": "dependencies/truststore-0.10.4-py3-none-any.whl",
+              "sha256": "adaeaecf1cbb5f4de3b1959b42d41f6fab57b2b1666adb59e89cb0b53361d981"
+            },
+            {
+              "file": "dependencies/typing_extensions-4.16.0-py3-none-any.whl",
+              "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+            },
+            {
+              "file": "dependencies/typing_inspection-0.4.4-py3-none-any.whl",
+              "sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147"
+            },
+            {
+              "file": "dependencies/urllib3-2.8.0-py3-none-any.whl",
+              "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "app-installer",
+      "name": "App Installer",
+      "category": "Utilities",
+      "desc": "Search and install apps via winget, or run your own custom install commands.",
+      "icon": "\ud83d\udce6",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:29.300592+00:00",
+          "sha256": "cb72c74e629e34dbedfde3283be637e9ba84d372a63231ddadda2c94174001d3",
+          "file": "packages/app-installer/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "disposable-sandbox",
+      "name": "Disposable Sandbox",
+      "category": "System",
+      "desc": "Linked-clone a VMware snapshot, share a read-only drop folder, then delete the clone when it powers off.",
+      "icon": "\ud83e\uddca",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:29.780087+00:00",
+          "sha256": "b50c398b7118535272d1f765c01a5c3b241df8c6aff4c49941a2aabd71adae5c",
+          "file": "packages/disposable-sandbox/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "phone-screen",
+      "name": "Phone Screen",
+      "category": "System",
+      "desc": "Mirror an Android phone or emulator with tap and swipe \u2014 USB or wireless ADB.",
+      "icon": "\ud83d\udcf1",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:31.252935+00:00",
+          "sha256": "b5e1f076a52c1d0940fbebad221d49c09df56152fdee1d1c0bf2a0fb4875fc46",
+          "file": "packages/phone-screen/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "psutil": "==7.2.2",
+            "pywin32": "==312"
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/psutil-7.2.2-cp37-abi3-win_amd64.whl",
+              "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988"
+            },
+            {
+              "file": "dependencies/pywin32-312-cp314-cp314-win_amd64.whl",
+              "sha256": "a4dd3a848290ef724347b19f301045831d8e802fa4464f491b98b1e0a081432e"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "resource-governor",
+      "name": "Resource Governor",
+      "category": "System",
+      "desc": "RAM/CPU budgets so game servers, Ollama, and transcodes do not stack blindly.",
+      "icon": "\u2696",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:31.878734+00:00",
+          "sha256": "7de71a95216b3ad76546f4952f09001528ba766bdf1d05ef4f48617e2f77cc41",
+          "file": "packages/resource-governor/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "time-travel",
+      "name": "Time Travel",
+      "category": "System",
+      "desc": "Timeline of GSM backups, save zips, AppData files, and Windows VSS shadows.",
+      "icon": "\u23ea",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:32.339831+00:00",
+          "sha256": "1fb8a38a60112fc667bb6ce98ed8ff02a89e087d87606f42901ac48c781db814",
+          "file": "packages/time-travel/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "driver-update-checker",
+      "name": "Driver/Update Checker",
+      "category": "System",
+      "desc": "Review installed drivers and check for driver and software updates.",
+      "icon": "\ud83d\udd27",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:33.368243+00:00",
+          "sha256": "35e822f333f95a9bce85f31779a261116ca59d07a9ecb72c5720e9433b6e3194",
+          "file": "packages/driver-update-checker/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "pywin32": "==312"
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/pywin32-312-cp314-cp314-win_amd64.whl",
+              "sha256": "a4dd3a848290ef724347b19f301045831d8e802fa4464f491b98b1e0a081432e"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "duplicate-file-finder",
+      "name": "Duplicate File Finder",
+      "category": "System",
+      "desc": "Scan folders for byte-identical files and reclaim the wasted space.",
+      "icon": "\ud83e\uddec",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:34.089510+00:00",
+          "sha256": "35ef0e9f6a59e7dc1ec3b16a021ad81139d3b29f5556e2062a80ecfe1efc1a19",
+          "file": "packages/duplicate-file-finder/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "environment-checker",
+      "name": "Environment Checker",
+      "category": "System",
+      "desc": "See what's installed for this app \u2014 VLC, Tailscale, WebView2, and more.",
+      "icon": "\ud83e\ude7a",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:34.538960+00:00",
+          "sha256": "0f830313b63cb5ddc9c23809034179854dd8040fa413d3cf05a2d66c0a66fe4f",
+          "file": "packages/environment-checker/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "startup-optimizer",
+      "name": "Startup Optimizer",
+      "category": "System",
+      "desc": "Scan startup apps and services, see what's safe to disable, and clean up boot load.",
+      "icon": "\ud83e\uddf9",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:35.613055+00:00",
+          "sha256": "652eefd1b044e3d2ff2ace739cf54397c4b4a32946f2c25143763a708ea913c9",
+          "file": "packages/startup-optimizer/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "pywin32": "==312"
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/pywin32-312-cp314-cp314-win_amd64.whl",
+              "sha256": "a4dd3a848290ef724347b19f301045831d8e802fa4464f491b98b1e0a081432e"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "system-monitor",
+      "name": "System Monitor",
+      "category": "System",
+      "desc": "Live system statistics",
+      "icon": "\ud83d\udda5\ufe0f",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:36.932108+00:00",
+          "sha256": "d986a00d400a4b062c5b405c7689f839dd026987bf3789bb7b5da6d7b7b25788",
+          "file": "packages/system-monitor/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "psutil": "==7.2.2"
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/psutil-7.2.2-cp37-abi3-win_amd64.whl",
+              "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "security-center",
+      "name": "Security Center",
+      "category": "Security",
+      "desc": "Breach checks (HIBP) + vault password audit \u2014 weak, reused, and leaked passwords.",
+      "icon": "\ud83d\udee1",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:38.076888+00:00",
+          "sha256": "2ceb563e083663b7b9d438b45d6c7ec8a6861545ae665164e8917c42af0dfff9",
+          "file": "packages/security-center/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "requests": "==2.34.2"
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/certifi-2026.7.22-py3-none-any.whl",
+              "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
+            },
+            {
+              "file": "dependencies/charset_normalizer-3.5.1-cp314-cp314-win_amd64.whl",
+              "sha256": "c658c50ac0c98cd755a2dd50b7977d3bca7df401dcc47fbdfa87db53ef7d4e8b"
+            },
+            {
+              "file": "dependencies/idna-3.20-py3-none-any.whl",
+              "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+            },
+            {
+              "file": "dependencies/requests-2.34.2-py3-none-any.whl",
+              "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+            },
+            {
+              "file": "dependencies/urllib3-2.8.0-py3-none-any.whl",
+              "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "file-encryption",
+      "name": "File Encryption",
+      "category": "Security",
+      "desc": "Encrypt and decrypt files to keep their contents private.",
+      "icon": "\ud83d\udd12",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:38.533194+00:00",
+          "sha256": "2928a1fadc66142ee34280641417380098f19793853fb27fe35e30904ecebfca",
+          "file": "packages/file-encryption/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "secure-vault",
+      "name": "Secure Vault",
+      "category": "Security",
+      "desc": "Encrypted passwords and authenticator (2FA) codes, in one place.",
+      "icon": "\ud83d\udd10",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:39.013540+00:00",
+          "sha256": "87c20a9eaf89a04f90236f2c0a6a0cab6737a1793362d002c6f5ac7f79e13ba9",
+          "file": "packages/secure-vault/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "game-stats-news",
+      "name": "Game Stats & News",
+      "category": "Utilities",
+      "desc": "Live game stats via your own API keys (Fortnite, Steam, or any custom API), plus custom news feeds and saved articles",
+      "icon": "\ud83d\udd79\ufe0f",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:40.423274+00:00",
+          "sha256": "2f307c48c7ed9ff23cd6030917de1a19225cecdaeb0f6dbce4c800be5cc96683",
+          "file": "packages/game-stats-news/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "cryptography": "==50.0.1",
+            "requests": "==2.34.2"
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/certifi-2026.7.22-py3-none-any.whl",
+              "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
+            },
+            {
+              "file": "dependencies/cffi-2.1.1-cp314-cp314-win_amd64.whl",
+              "sha256": "3222ba5d678f80a030e6afbcc33dc1ae5cb45facabb61cee2c7016b8432fde48"
+            },
+            {
+              "file": "dependencies/charset_normalizer-3.5.1-cp314-cp314-win_amd64.whl",
+              "sha256": "c658c50ac0c98cd755a2dd50b7977d3bca7df401dcc47fbdfa87db53ef7d4e8b"
+            },
+            {
+              "file": "dependencies/cryptography-50.0.1-cp311-abi3-win_amd64.whl",
+              "sha256": "aed8db4f6d71c51efb89530e12d9464e7bf2923d46c3205dc794a2a93f8c0648"
+            },
+            {
+              "file": "dependencies/idna-3.20-py3-none-any.whl",
+              "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+            },
+            {
+              "file": "dependencies/pycparser-3.0-py3-none-any.whl",
+              "sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"
+            },
+            {
+              "file": "dependencies/requests-2.34.2-py3-none-any.whl",
+              "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+            },
+            {
+              "file": "dependencies/urllib3-2.8.0-py3-none-any.whl",
+              "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "name": "Notes",
+      "category": "Productivity",
+      "desc": "Free-form notes with attached links",
+      "icon": "\ud83d\udcdd",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:41.023054+00:00",
+          "sha256": "d512a7ac99eaf733a2d6444d2b34beff2ae54658a10465ff5a50d9ed627915cd",
+          "file": "packages/notes/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "clipboard-manager",
+      "name": "Clipboard Manager",
+      "category": "Productivity",
+      "desc": "Tracks your clipboard history \u2014 search, pin, and re-copy past items.",
+      "icon": "\ud83d\udccb",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:41.486980+00:00",
+          "sha256": "30bf0e97334189e63786f7cfd68541c1e3ccc8a87b206dd401836202f0855c73",
+          "file": "packages/clipboard-manager/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "ssh-serial",
+      "name": "SSH / Serial",
+      "category": "Network",
+      "desc": "SSH into a box or open a COM serial console from this app.",
+      "icon": "\ud83d\udda5",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:43.488634+00:00",
+          "sha256": "dc73d4c27f6dba40841568015d4abae4853e272035c40412bf9fd6a182e29bf7",
+          "file": "packages/ssh-serial/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "paramiko": "",
+            "pyserial": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/bcrypt-5.0.0-cp39-abi3-win_amd64.whl",
+              "sha256": "64ee8434b0da054d830fa8e89e1c8bf30061d539044a39524ff7dec90481e5c2"
+            },
+            {
+              "file": "dependencies/cffi-2.1.1-cp314-cp314-win_amd64.whl",
+              "sha256": "3222ba5d678f80a030e6afbcc33dc1ae5cb45facabb61cee2c7016b8432fde48"
+            },
+            {
+              "file": "dependencies/cryptography-50.0.1-cp311-abi3-win_amd64.whl",
+              "sha256": "aed8db4f6d71c51efb89530e12d9464e7bf2923d46c3205dc794a2a93f8c0648"
+            },
+            {
+              "file": "dependencies/invoke-3.0.3-py3-none-any.whl",
+              "sha256": "f11327165e5cbb89b2ad1d88d3292b5113332c43b8553b494da435d6ec6f5053"
+            },
+            {
+              "file": "dependencies/paramiko-5.0.0-py3-none-any.whl",
+              "sha256": "b7044611c30140d9a75261653210e2002977b71a0497ff3ba0d98d7edbf62f7c"
+            },
+            {
+              "file": "dependencies/pycparser-3.0-py3-none-any.whl",
+              "sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"
+            },
+            {
+              "file": "dependencies/pynacl-1.6.2-cp38-abi3-win_amd64.whl",
+              "sha256": "62985f233210dee6548c223301b6c25440852e13d59a8b81490203c3227c5ba0"
+            },
+            {
+              "file": "dependencies/pyserial-3.5-py2.py3-none-any.whl",
+              "sha256": "c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "network-auditor",
+      "name": "Network Auditor",
+      "category": "Network",
+      "desc": "Discover devices, scan ports, and analyze network security.",
+      "icon": "\ud83c\udf10",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:49.970937+00:00",
+          "sha256": "74885a2bc24079a46fab84fa5126fa833e2fe65ceafba1b545b0c445ae014feb",
+          "file": "packages/network-auditor/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "python-nmap": "",
+            "requests": "==2.34.2",
+            "scapy": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/certifi-2026.7.22-py3-none-any.whl",
+              "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
+            },
+            {
+              "file": "dependencies/charset_normalizer-3.5.1-cp314-cp314-win_amd64.whl",
+              "sha256": "c658c50ac0c98cd755a2dd50b7977d3bca7df401dcc47fbdfa87db53ef7d4e8b"
+            },
+            {
+              "file": "dependencies/idna-3.20-py3-none-any.whl",
+              "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+            },
+            {
+              "file": "dependencies/python_nmap-0.7.1-py2.py3-none-any.whl",
+              "sha256": "df5d2725d192ce38ee85fcb6a06a85ab9495d85f2d6ed0ea6f690bd94de31a9c"
+            },
+            {
+              "file": "dependencies/requests-2.34.2-py3-none-any.whl",
+              "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+            },
+            {
+              "file": "dependencies/scapy-2.7.0-py3-none-any.whl",
+              "sha256": "eb22786da92be6fd8e5c694ae5595e4f5b9ac1f4364c9c45986844f3e3063561"
+            },
+            {
+              "file": "dependencies/urllib3-2.8.0-py3-none-any.whl",
+              "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "port-forward-helper",
+      "name": "Port Forward Helper",
+      "category": "Network",
+      "desc": "Detect your router via UPnP and add/remove port forwards without the admin page.",
+      "icon": "\ud83d\udd00",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:51.771935+00:00",
+          "sha256": "0f9464fd66c0cb5ab632f0ebd2ce289e1d4eb558ec0e29589b991bbe060165aa",
+          "file": "packages/port-forward-helper/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "requests": "==2.34.2"
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/certifi-2026.7.22-py3-none-any.whl",
+              "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
+            },
+            {
+              "file": "dependencies/charset_normalizer-3.5.1-cp314-cp314-win_amd64.whl",
+              "sha256": "c658c50ac0c98cd755a2dd50b7977d3bca7df401dcc47fbdfa87db53ef7d4e8b"
+            },
+            {
+              "file": "dependencies/idna-3.20-py3-none-any.whl",
+              "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+            },
+            {
+              "file": "dependencies/requests-2.34.2-py3-none-any.whl",
+              "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+            },
+            {
+              "file": "dependencies/urllib3-2.8.0-py3-none-any.whl",
+              "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "quick-send",
+      "name": "Quick Send",
+      "category": "Network",
+      "desc": "Send files between your phone and this PC",
+      "icon": "\ud83d\udce4",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:52.255329+00:00",
+          "sha256": "6a09b3bf6a2e84e820668315364dc10c7bc4dc7515f20824fef1a867e2e25744",
+          "file": "packages/quick-send/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "remote-hub",
+      "name": "Remote Hub",
+      "category": "Network",
+      "desc": "One phone-friendly page linking to Music Player, Security Vault, and YouTube Downloader over Tailscale",
+      "icon": "\ud83d\udce1",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:53.425962+00:00",
+          "sha256": "400507193622db9b4201a7ebbb4a60652f3b268999f6bde4e2ec9150c41f3d4b",
+          "file": "packages/remote-hub/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "qrcode": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/colorama-0.4.6-py2.py3-none-any.whl",
+              "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
+            },
+            {
+              "file": "dependencies/qrcode-8.2-py3-none-any.whl",
+              "sha256": "16e64e0716c14960108e85d853062c9e8bba5ca8252c0b4d0231b9df4060ff4f"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "mangadex-reader",
+      "name": "MangaDex Reader",
+      "category": "Media",
+      "desc": "Search, read, and download MangaDex chapters. OCR + voice + translate on the page for untranslated scans.",
+      "icon": "\ud83d\udcd6",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:54.875794+00:00",
+          "sha256": "a9543f31f61399099ea09c6ce7a552d3fda4935b5f6b0b8bcbae400e4ba368be",
+          "file": "packages/mangadex-reader/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "pywin32": "==312",
+            "requests": "==2.34.2",
+            "winrt-runtime": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/certifi-2026.7.22-py3-none-any.whl",
+              "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
+            },
+            {
+              "file": "dependencies/charset_normalizer-3.5.1-cp314-cp314-win_amd64.whl",
+              "sha256": "c658c50ac0c98cd755a2dd50b7977d3bca7df401dcc47fbdfa87db53ef7d4e8b"
+            },
+            {
+              "file": "dependencies/idna-3.20-py3-none-any.whl",
+              "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+            },
+            {
+              "file": "dependencies/pywin32-312-cp314-cp314-win_amd64.whl",
+              "sha256": "a4dd3a848290ef724347b19f301045831d8e802fa4464f491b98b1e0a081432e"
+            },
+            {
+              "file": "dependencies/requests-2.34.2-py3-none-any.whl",
+              "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+            },
+            {
+              "file": "dependencies/typing_extensions-4.16.0-py3-none-any.whl",
+              "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+            },
+            {
+              "file": "dependencies/urllib3-2.8.0-py3-none-any.whl",
+              "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+            },
+            {
+              "file": "dependencies/winrt_runtime-3.2.1-cp314-cp314-win_amd64.whl",
+              "sha256": "e36e587ab5fd681ee472cd9a5995743f75107a1a84d749c64f7e490bc86bc814"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "media-metadata-editor",
+      "name": "Media Metadata Editor",
+      "category": "Media",
+      "desc": "Edit audio tags, image EXIF fields, and file timestamps",
+      "icon": "\ud83c\udff7\ufe0f",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:46:56.977792+00:00",
+          "sha256": "8c24cebeba9579c73b87a538aa51f209767d7a291970e46b800ae106c190832a",
+          "file": "packages/media-metadata-editor/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "Pillow": "",
+            "mutagen": "==1.48.1",
+            "pywin32": "==312"
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/mutagen-1.48.1-py3-none-any.whl",
+              "sha256": "4f077fe87d3fc7fba259aa63d8c026b18382ca6a42ef37c61e16f1b1b5b82fe7"
+            },
+            {
+              "file": "dependencies/pillow-12.3.0-cp314-cp314-win_amd64.whl",
+              "sha256": "fdafc9cce40277e0f7a0feabce0ee50dd2fa1800f3b38015e51296b5e814048d"
+            },
+            {
+              "file": "dependencies/pywin32-312-cp314-cp314-win_amd64.whl",
+              "sha256": "a4dd3a848290ef724347b19f301045831d8e802fa4464f491b98b1e0a081432e"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
     {
       "id": "media-player",
       "name": "Media Player",
@@ -16,8 +1060,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-24",
-          "published_at": "2026-09-24T01:08:05.750165+00:00",
-          "sha256": "84f78b5e7a0b9e67701fdf9109fb385e01bb50dbea70b3b669b6e166a74c054d",
+          "published_at": "2026-09-24T03:47:18.129672+00:00",
+          "sha256": "9819e8b1fc1f48c72e3283434c4830f745a57197a3ead387047bb27560b7ae24",
           "file": "packages/media-player/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -1906,6 +2950,503 @@
               "sha256": "be74a063fecbb789ad455fafbc8dab848dc2e3b1602b6183cfcf1e8ebe8aa880"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "video-to-gif-converter",
+      "name": "Video to GIF Converter",
+      "category": "Media",
+      "desc": "Convert video files to optimized GIFs \u2014 no command line.",
+      "icon": "\ud83c\udf9e",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:47:45.268095+00:00",
+          "sha256": "d010e1b628ccf2dcd66684c6b66de673af9ae7968006a42527110f8af3e1334e",
+          "file": "packages/video-to-gif-converter/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {
+            "ffmpeg-win64": "7.1-essentials"
+          },
+          "bundled_native_assets": [
+            {
+              "pack": "ffmpeg-win64",
+              "file": "native/ffmpeg-win64/ffmpeg.exe",
+              "sha256": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3"
+            },
+            {
+              "pack": "ffmpeg-win64",
+              "file": "native/ffmpeg-win64/ffplay.exe",
+              "sha256": "f6536c4caf9bac0fee1e8ffaafa5b13b6ad3e386a9a9f0b6613360e8c6d59919"
+            },
+            {
+              "pack": "ffmpeg-win64",
+              "file": "native/ffmpeg-win64/ffprobe.exe",
+              "sha256": "436bf02524d50135ed9965b90d1e0ad7f26c5c236132613a2edb87ef8b6873d0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "media-downloader",
+      "name": "Media Downloader",
+      "category": "Media",
+      "desc": "Download from YouTube, TikTok, SoundCloud, and 1000+ sites as MP3 or MP4",
+      "icon": "\u25b6",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:47:54.325254+00:00",
+          "sha256": "9c6e066cf9e1092a9978919f9a3679ac51a039712bb79119ee58bae5807af528",
+          "file": "packages/media-downloader/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "mutagen": "==1.48.1",
+            "youtube_dl": "",
+            "yt-dlp": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/mutagen-1.48.1-py3-none-any.whl",
+              "sha256": "4f077fe87d3fc7fba259aa63d8c026b18382ca6a42ef37c61e16f1b1b5b82fe7"
+            },
+            {
+              "file": "dependencies/youtube_dl-2021.12.17-py2.py3-none-any.whl",
+              "sha256": "f1336d5de68647e0364a47b3c0712578e59ec76f02048ff5c50ef1c69d79cd55"
+            },
+            {
+              "file": "dependencies/yt_dlp-2026.8.19-py3-none-any.whl",
+              "sha256": "1d57897e94c6665a0a6f9bc54b34e584284e32c034ffab3a7df25d8f7b24eedf"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "soundboard",
+      "name": "Soundboard",
+      "category": "Media",
+      "desc": "Play sounds through your mic or audio device",
+      "icon": "\ud83d\udd0a",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:47:56.477179+00:00",
+          "sha256": "a351f39904c61792e0182e2345cfc6dbd28204c01dc4717182c190153697d69e",
+          "file": "packages/soundboard/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "numpy": "==2.5.2",
+            "sounddevice": "",
+            "soundfile": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/cffi-2.1.1-cp314-cp314-win_amd64.whl",
+              "sha256": "3222ba5d678f80a030e6afbcc33dc1ae5cb45facabb61cee2c7016b8432fde48"
+            },
+            {
+              "file": "dependencies/numpy-2.5.2-cp314-cp314-win_amd64.whl",
+              "sha256": "7587f53dfbd5edc0f7b87c6217b4c6d2d1f2ef9c3da70bc1315e7db5f8d7ec9d"
+            },
+            {
+              "file": "dependencies/pycparser-3.0-py3-none-any.whl",
+              "sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"
+            },
+            {
+              "file": "dependencies/sounddevice-0.5.6-py3-none-win_amd64.whl",
+              "sha256": "7f4162f514f007b0bf25a3ccfed3f1705bc2ec311888a90232729eec4f57a4f4"
+            },
+            {
+              "file": "dependencies/soundfile-0.14.0-py2.py3-none-win_amd64.whl",
+              "sha256": "299491d3499460fb1b74bb4bd78b57ffc2d243a5fafa7b6ec1b264875c78453e"
+            },
+            {
+              "file": "dependencies/typing_extensions-4.16.0-py3-none-any.whl",
+              "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "game-server-manager",
+      "name": "Game Server Manager",
+      "category": "Gaming",
+      "desc": "Universal dedicated server manager \u2014 Minecraft, Rust, ARK, CS2, Factorio, 7 Days to Die, Enshrouded, V Rising, DST, Conan Exiles, Soulmask, Satisfactory, Terraria, Valheim, Palworld, Project Zomboid, SteamCMD, and custom servers.",
+      "icon": "\ud83c\udfae",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:47:58.327338+00:00",
+          "sha256": "db2598fbb8a27ec1aacca702bd4ea6eaa94c36c52b17b9bb7b2b95ddabaa2133",
+          "file": "packages/game-server-manager/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "psutil": "==7.2.2",
+            "requests": "==2.34.2"
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/certifi-2026.7.22-py3-none-any.whl",
+              "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
+            },
+            {
+              "file": "dependencies/charset_normalizer-3.5.1-cp314-cp314-win_amd64.whl",
+              "sha256": "c658c50ac0c98cd755a2dd50b7977d3bca7df401dcc47fbdfa87db53ef7d4e8b"
+            },
+            {
+              "file": "dependencies/idna-3.20-py3-none-any.whl",
+              "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+            },
+            {
+              "file": "dependencies/psutil-7.2.2-cp37-abi3-win_amd64.whl",
+              "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988"
+            },
+            {
+              "file": "dependencies/requests-2.34.2-py3-none-any.whl",
+              "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+            },
+            {
+              "file": "dependencies/urllib3-2.8.0-py3-none-any.whl",
+              "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "gaming-hub",
+      "name": "Gaming Hub",
+      "category": "Gaming",
+      "desc": "Scan, launch and manage games.",
+      "icon": "\ud83c\udfae",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:47:58.904019+00:00",
+          "sha256": "726a349a727c7acffd8d02425b38a2a526f8b0603a19dfa34de9947096982c84",
+          "file": "packages/gaming-hub/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "file-shredder",
+      "name": "File Shredder",
+      "category": "Files",
+      "desc": "Securely overwrite and delete files and folders so they can't be recovered.",
+      "icon": "\ud83d\uddd1",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:48:09.338032+00:00",
+          "sha256": "4f9964e70aab1651494e1967f91d68b71555fc63ad77dad2048412ef8ac0feca",
+          "file": "packages/file-shredder/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "folder-generator",
+      "name": "Folder Generator",
+      "category": "Files",
+      "desc": "Create predefined folder structures for games from JSON templates.",
+      "icon": "\ud83d\uddc2",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:48:10.483460+00:00",
+          "sha256": "601cb27e05b83d391596d640213cbdef65ef95fef1add6dd4be7c62d826801b2",
+          "file": "packages/folder-generator/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "hash-tools",
+      "name": "Hash Tools",
+      "category": "Security",
+      "desc": "Generate and verify hashes",
+      "icon": "\ud83d\udd0d",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:48:12.899856+00:00",
+          "sha256": "d292baa28e4d532d7eeb8a16849b91f8cfdd844ba3fab8f9f5f9f93e7dcb1368",
+          "file": "packages/hash-tools/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "save-editor",
+      "name": "Save Editor",
+      "category": "Files",
+      "desc": "Open, inspect, and edit game save files \u2014 JSON, XML, YAML, INI, compressed/encoded/encrypted saves, and any unrecognized binary save (readable-text view, value search, and custom named-field layouts).",
+      "icon": "\ud83d\udcbe",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:48:14.770328+00:00",
+          "sha256": "d79c90544d6d9f810973470304f5bdac06a0bfac054e9c939bb91182092431ac",
+          "file": "packages/save-editor/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "PyYAML": "",
+            "cryptography": "==50.0.1",
+            "pycryptodome": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/cffi-2.1.1-cp314-cp314-win_amd64.whl",
+              "sha256": "3222ba5d678f80a030e6afbcc33dc1ae5cb45facabb61cee2c7016b8432fde48"
+            },
+            {
+              "file": "dependencies/cryptography-50.0.1-cp311-abi3-win_amd64.whl",
+              "sha256": "aed8db4f6d71c51efb89530e12d9464e7bf2923d46c3205dc794a2a93f8c0648"
+            },
+            {
+              "file": "dependencies/pycparser-3.0-py3-none-any.whl",
+              "sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"
+            },
+            {
+              "file": "dependencies/pycryptodome-3.23.0-cp37-abi3-win_amd64.whl",
+              "sha256": "c75b52aacc6c0c260f204cbdd834f76edc9fb0d8e0da9fbf8352ef58202564e2"
+            },
+            {
+              "file": "dependencies/pyyaml-6.0.3-cp314-cp314-win_amd64.whl",
+              "sha256": "4a2e8cebe2ff6ab7d1050ecd59c25d4c8bd7e6f400f5f82b96557ac0abafd0ac"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "module-development-guide",
+      "name": "Module Development Guide",
+      "category": "Developer",
+      "desc": "Learn how to create, test, and submit modules for Z's Multi Tool.",
+      "icon": "\ud83d\udcd6",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:48:15.472791+00:00",
+          "sha256": "680a8360a63b7b55ab26cca21681daf222c53a3611fb32409c489901d611cae1",
+          "file": "packages/module-development-guide/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "color-picker",
+      "name": "Color Picker",
+      "category": "Design",
+      "desc": "Pick a color by hex/RGB/HSV or an on-screen eyedropper, and generate harmony palettes from it.",
+      "icon": "\ud83c\udfa8",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:48:15.921598+00:00",
+          "sha256": "671f23b7b0b5bae34b4d56105b6ac06709033549ff4ff103e68cfa5415391870",
+          "file": "packages/color-picker/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "icon-favicon-generator",
+      "name": "Icon/Favicon Generator",
+      "category": "Design",
+      "desc": "Turn one image into a full favicon.ico + PNG icon set + site.webmanifest.",
+      "icon": "\ud83e\udde9",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:48:16.981973+00:00",
+          "sha256": "00eb35a98f24a0e6b6ddfd42dd07b89700bd7cd352033b48ca6644a611e68f81",
+          "file": "packages/icon-favicon-generator/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "Pillow": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/pillow-12.3.0-cp314-cp314-win_amd64.whl",
+              "sha256": "fdafc9cce40277e0f7a0feabce0ee50dd2fa1800f3b38015e51296b5e814048d"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "image-palette-extractor",
+      "name": "Image Palette Extractor",
+      "category": "Design",
+      "desc": "Pull the dominant colors out of any image as copyable hex/RGB swatches.",
+      "icon": "\ud83d\uddbc\ufe0f",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:48:18.233253+00:00",
+          "sha256": "997749586acddb6dac74af48a44ba2c4f90f0dd880e47f117b094928965a10b5",
+          "file": "packages/image-palette-extractor/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "Pillow": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/pillow-12.3.0-cp314-cp314-win_amd64.whl",
+              "sha256": "fdafc9cce40277e0f7a0feabce0ee50dd2fa1800f3b38015e51296b5e814048d"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "qr-generator",
+      "name": "QR Generator",
+      "category": "Utilities",
+      "desc": "Turns text, URLs, Wi-Fi credentials, or contact info into a QR code you can save or share.",
+      "icon": "\ud83d\udd33",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-24",
+          "published_at": "2026-09-24T03:48:19.706643+00:00",
+          "sha256": "07b1ebfe01d76070a75dd2c93d318094fc9d64e48a4f1225b402520572600bc8",
+          "file": "packages/qr-generator/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "Pillow": "",
+            "qrcode": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/colorama-0.4.6-py2.py3-none-any.whl",
+              "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
+            },
+            {
+              "file": "dependencies/pillow-12.3.0-cp314-cp314-win_amd64.whl",
+              "sha256": "fdafc9cce40277e0f7a0feabce0ee50dd2fa1800f3b38015e51296b5e814048d"
+            },
+            {
+              "file": "dependencies/qrcode-8.2-py3-none-any.whl",
+              "sha256": "16e64e0716c14960108e85d853062c9e8bba5ca8252c0b4d0231b9df4060ff4f"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     }
