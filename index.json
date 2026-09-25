@@ -1,6 +1,6 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-09-25T20:17:25.447035+00:00",
+  "updated": "2026-09-25T20:58:21.639218+00:00",
   "modules": [
     {
       "id": "ai-chat",
@@ -3472,7 +3472,7 @@
       "icon": "\ud83d\udee1\ufe0f",
       "publisher": "official",
       "author": "Zyvelia",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.5",
       "releases": [
         {
@@ -3481,6 +3481,25 @@
           "published_at": "2026-09-25T20:17:25.118731+00:00",
           "sha256": "227cbce380bc004deb46b9923cf026ff7bf2be9a7f4fe3e28f554422cd3800f7",
           "file": "packages/ai-virus-defender/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "psutil": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/psutil-7.2.2-cp37-abi3-win_amd64.whl",
+              "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-09-25",
+          "published_at": "2026-09-25T20:58:21.617978+00:00",
+          "sha256": "92ec2262e0d64bd176ded2e89594bfeea2006044166c98784b95c4b4a98928ef",
+          "file": "packages/ai-virus-defender/build-2.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
             "psutil": ""
