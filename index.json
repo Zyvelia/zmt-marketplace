@@ -1,6 +1,6 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-09-25T17:30:26.444210+00:00",
+  "updated": "2026-09-25T20:17:25.447035+00:00",
   "modules": [
     {
       "id": "ai-chat",
@@ -3457,6 +3457,38 @@
             {
               "file": "dependencies/qrcode-8.2-py3-none-any.whl",
               "sha256": "16e64e0716c14960108e85d853062c9e8bba5ca8252c0b4d0231b9df4060ff4f"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "ai-virus-defender",
+      "name": "AI Virus Defender",
+      "category": "Security",
+      "desc": "Heuristic AI scanner. Detects packed binaries, process name spoofing, suspicious imports, and persistence across registry and startup. Terminates and fully removes threats \u2014 no leftovers.",
+      "icon": "\ud83d\udee1\ufe0f",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 1,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-25",
+          "published_at": "2026-09-25T20:17:25.118731+00:00",
+          "sha256": "227cbce380bc004deb46b9923cf026ff7bf2be9a7f4fe3e28f554422cd3800f7",
+          "file": "packages/ai-virus-defender/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "psutil": ""
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/psutil-7.2.2-cp37-abi3-win_amd64.whl",
+              "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988"
             }
           ],
           "native_dependencies": {},
