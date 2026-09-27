@@ -1,6 +1,6 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-09-27T07:04:16.575844+00:00",
+  "updated": "2026-09-27T07:58:31.222014+00:00",
   "modules": [
     {
       "id": "ai-chat",
@@ -16,8 +16,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:02:50.217921+00:00",
-          "sha256": "a8c3804612c0f8fec9bce32c181a019682f6bbd4b8cf8343d535053db4d6cad9",
+          "published_at": "2026-09-27T07:57:23.949632+00:00",
+          "sha256": "f9ceb00fa6940601ab910508b7244e7a4453f2d9e8aa0600e0119140f6b2cad2",
           "file": "packages/ai-chat/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -229,17 +229,17 @@
       "desc": "Defender-style lightweight real-time protection with staged detectors, resource-aware background monitoring, queued scans, and AI investigation only for suspicious activity. Heuristic AI scanner v3. Process scan: name spoof, parent-chain validation, hidden PIDs. Memory scan: RWX unbacked regions, injected MZ headers, DLL injection, process hollowing (PE timestamp mismatch). Persistence: registry Run keys, startup folders, scheduled tasks, WMI subscriptions, services, IFEO hijacks, AppInit_DLLs. Filesystem: threaded deep-scan with YARA-style patterns, per-section entropy, overlay detection, Authenticode check. Quarantine: AES-256-CBC encrypted with HMAC integrity, restore/purge, manifest. Self-protection: DACL process guard + scheduled-task watchdog relaunch. Settings: in-UI config editor persisted to JSON, hot-applied without restart.",
       "icon": "\ud83d\udee1\ufe0f",
       "publisher": "official",
-      "author": "dj",
+      "author": "Zyvelia",
       "latest_build": 1,
       "min_app_version": "4.0.5",
       "releases": [
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:02:53.390972+00:00",
-          "sha256": "854eedb718385b6bb3de6ca0a6e2d02c8e7fb200f9c0408f39929d5ccc973fea",
+          "published_at": "2026-09-27T07:57:26.825035+00:00",
+          "sha256": "b1af0bd83ffa9b34cfb2734ab303728a78bdfb69e5066fabd9b33cc6d6177f69",
           "file": "packages/ai-virus-defender/build-1.zmod",
-          "author": "dj",
+          "author": "Zyvelia",
           "python_dependencies": {
             "WMI": "==1.5.1",
             "cryptography": ">=41.0",
@@ -291,8 +291,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:02:54.398922+00:00",
-          "sha256": "738befa1062f6a87a3623745264c8c233cbf3be4c4b2f3ceed150fa9a9c16256",
+          "published_at": "2026-09-27T07:57:27.780173+00:00",
+          "sha256": "388a82a86ba44a04c8f26f0be1bc5f75eca9bbceb4e82df97bfe775abd162bc4",
           "file": "packages/app-installer/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -316,8 +316,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:02:54.925020+00:00",
-          "sha256": "81d2d6bf40b0d6c1b8d9a74131f804e383da1312f77c8113fc7834a412cc2be5",
+          "published_at": "2026-09-27T07:57:28.241407+00:00",
+          "sha256": "73b6690a26becdb564173f5c1c03d7a8cefa2ceb5369c60707867cbd836925f1",
           "file": "packages/disposable-sandbox/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -341,8 +341,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:02:56.265296+00:00",
-          "sha256": "f61fa7f0f917d64582da1edbb6447bf6aa5720e7afa91fbe3cf59d9cbcb3b3d4",
+          "published_at": "2026-09-27T07:57:29.497257+00:00",
+          "sha256": "88beb64898d023cbf23d2f77df59e9f44698efb1808c628d22c893ffc7956b37",
           "file": "packages/phone-screen/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -365,31 +365,6 @@
       ]
     },
     {
-      "id": "resource-governor",
-      "name": "Resource Governor",
-      "category": "System",
-      "desc": "RAM/CPU budgets so game servers, Ollama, and transcodes do not stack blindly.",
-      "icon": "\u2696",
-      "publisher": "official",
-      "author": "Zyvelia",
-      "latest_build": 1,
-      "min_app_version": "4.0.5",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:02:56.967735+00:00",
-          "sha256": "8a1a450c7c596c455a36ea17204a9135628990e21180c09bb1dbe434b5e38c20",
-          "file": "packages/resource-governor/build-1.zmod",
-          "author": "Zyvelia",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
       "id": "time-travel",
       "name": "Time Travel",
       "category": "System",
@@ -403,8 +378,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:02:57.479672+00:00",
-          "sha256": "61acac2e7acf818d1a29d505cf54f277e30bd150a293178218b9220752542e58",
+          "published_at": "2026-09-27T07:57:30.190220+00:00",
+          "sha256": "8e1d1bcc20ebc2f0e9f7d5671eae6e953c07ef61166a8559164433c1d3283869",
           "file": "packages/time-travel/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -428,8 +403,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:02:58.669532+00:00",
-          "sha256": "60c6ccc0545b4ce4722f4c63f3279a410f09d75ee70bb3acf0785289d5712f72",
+          "published_at": "2026-09-27T07:57:31.351606+00:00",
+          "sha256": "7fdbb16ec523eaacd1ccc12f0a764c9e844bbcb00fb68e8432abf56fd8fd6486",
           "file": "packages/driver-update-checker/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -460,8 +435,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:02:59.487448+00:00",
-          "sha256": "6e88e4a87e87b790c7cbdce880fe0c7b39fd04eedab89bbb14a6ab22a9ce3440",
+          "published_at": "2026-09-27T07:57:32.099358+00:00",
+          "sha256": "18bb7ca7f7580eef6e10356bf91f724669e9d2a711fc77d599261fefe8d4f1f8",
           "file": "packages/duplicate-file-finder/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -485,8 +460,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:02:59.980265+00:00",
-          "sha256": "89407f253704643b6da34d8d63597659093b0bde45d4472deca500bc2290882c",
+          "published_at": "2026-09-27T07:57:32.540581+00:00",
+          "sha256": "4573cacd92c0390cfa7c15e532dd61d2efcdc42ffdba296f9daaeea3365c53c7",
           "file": "packages/environment-checker/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -510,8 +485,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:01.237547+00:00",
-          "sha256": "749d68c8989d52bf64894004bc09905a551ff93dbec02bfabf18fc6f70d96d85",
+          "published_at": "2026-09-27T07:57:33.672069+00:00",
+          "sha256": "591f12cda7d5f7e59011b4a74f4c6988a08535735fff8363c9a941c50ab56991",
           "file": "packages/startup-optimizer/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -542,8 +517,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:02.668343+00:00",
-          "sha256": "6c1ca882531734c67dc31f1a64b609bf93eb5b8aeadbb687aeac95042a47f6e6",
+          "published_at": "2026-09-27T07:57:35.006486+00:00",
+          "sha256": "3b0d3541f51882d96bc19b73713029738baf91ece9f5fc1224fde45e09180f11",
           "file": "packages/system-monitor/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -574,8 +549,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:03.294422+00:00",
-          "sha256": "f9d45231fd5f507b66336c5218701c79b05903c0ebc8818699035145bbe421ec",
+          "published_at": "2026-09-27T07:57:35.482208+00:00",
+          "sha256": "f948f9ca38a69d18f56977befff17552002862bdc0c72c482decc3947195024a",
           "file": "packages/security-center/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -599,8 +574,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:03.789832+00:00",
-          "sha256": "7a9be169ffdad68bf6aac235d8f788d2b65b06795e4d83f4bbe7fc94b1c78339",
+          "published_at": "2026-09-27T07:57:35.935023+00:00",
+          "sha256": "109d2ab764f868461fc16fa68aa3ab7944728d52e50aed07e0cdf01841e4c234",
           "file": "packages/file-encryption/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -624,8 +599,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:04.336882+00:00",
-          "sha256": "f03e4c41aef58327ec756077ced9c46929820676dfdb3b7e446559a1606230cf",
+          "published_at": "2026-09-27T07:57:36.404588+00:00",
+          "sha256": "054e61a5acebc96cce0d4ef046f74d28e9da9b34f1870ef22bd9665bbd372ef8",
           "file": "packages/secure-vault/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -649,8 +624,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:06.163915+00:00",
-          "sha256": "38745152cedc99937351b5a949f672fcddc91cadac0b0e7633975ba31fce5f0c",
+          "published_at": "2026-09-27T07:57:38.009249+00:00",
+          "sha256": "5f5c92f29ce4ec78c7bd15f076ebf54b64477d7353d693334fe5c91dec704643",
           "file": "packages/game-stats-news/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -710,8 +685,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:06.946419+00:00",
-          "sha256": "c7d0ffe0a152061dafbbe1a5db3762f439795c5b47d2d4b680c2d0cf71e3e576",
+          "published_at": "2026-09-27T07:57:38.635487+00:00",
+          "sha256": "989db547a186d66ae83b50f1f6b45af19d72c9195cdbdb5b9c4c6f07d5b95eac",
           "file": "packages/notes/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -735,8 +710,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:07.456482+00:00",
-          "sha256": "6852985cb170be7768320fa23cb58201692529bfbab4073a22268b4cb9ec948c",
+          "published_at": "2026-09-27T07:57:39.093724+00:00",
+          "sha256": "7755bdd7ed78c56278da53ce9d9f14f8e9a9ca01e8d0cdd6e8a7b8b8361c5e1a",
           "file": "packages/clipboard-manager/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -760,8 +735,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:09.506335+00:00",
-          "sha256": "16ac9348a7f2691e334eceda0bcf81c1f0c0adc125d2a5ec17de4814ad8b88a3",
+          "published_at": "2026-09-27T07:57:40.790707+00:00",
+          "sha256": "9efb3caeccf6dec9d98855c3cff60744a175ccd88f350ca5ad7bcdcbe261c400",
           "file": "packages/ssh-serial/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -821,8 +796,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:14.246485+00:00",
-          "sha256": "7e2e535986b74dd6ff1af9c80357eaa811cf74ab2b785a75ad30eb5581e24ce6",
+          "published_at": "2026-09-27T07:57:45.137241+00:00",
+          "sha256": "6888b14026a2d55afe508fb6c108571fb2b66c6c1bf44ec37d5972d6b02e98d1",
           "file": "packages/network-auditor/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -879,8 +854,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:15.997007+00:00",
-          "sha256": "3c1670fa8e4a2afe46fec1a283b0c9f96264cb356c9fa0273b6f537b2b9a0ce9",
+          "published_at": "2026-09-27T07:57:46.723234+00:00",
+          "sha256": "4f7e6a50594dfac1a998c24f5e6bd27f4688b4beffb28a2d5ecdf17eddcfcdaf",
           "file": "packages/port-forward-helper/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -927,8 +902,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:16.704776+00:00",
-          "sha256": "0966693896ae60f02cf6abb9eb111ce6d01c3004f307f98188502de978bec041",
+          "published_at": "2026-09-27T07:57:47.301181+00:00",
+          "sha256": "3ba19c4a54a4823da810d25ffa9572f923412eff97d9a2061f9972b3464f4f49",
           "file": "packages/quick-send/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -952,8 +927,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:18.124894+00:00",
-          "sha256": "d5c3b15c6a995eb55a33562fab32a5fd0cfbcff31f5e66c24f7b1318b4eb29f0",
+          "published_at": "2026-09-27T07:57:48.481402+00:00",
+          "sha256": "b613be3f3b7e8235bc28196530c8e7b3ad365101d92dab04c1219c48830bded2",
           "file": "packages/remote-hub/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -988,8 +963,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:19.932821+00:00",
-          "sha256": "c6b7c289ab666258f0aa76ab223978c987bbe341aa437b4b05223583d74f83dd",
+          "published_at": "2026-09-27T07:57:50.084657+00:00",
+          "sha256": "2fd6d34557ecfc38f41fe7053dd3b68bb6166bc8e96d620961778e616d150093",
           "file": "packages/mangadex-reader/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -1050,8 +1025,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:21.922295+00:00",
-          "sha256": "fadcab454b94e1b1c485241cc78340a43901fda92c2a14fc9a6c0b6bd23e7109",
+          "published_at": "2026-09-27T07:57:51.885222+00:00",
+          "sha256": "ffddc91d5977dcfdd6d43e51036684834dfc2e0c29a15e42787122f8eb1202e8",
           "file": "packages/media-metadata-editor/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -1092,8 +1067,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:27.278108+00:00",
-          "sha256": "6b812c1dcc0aeeab47c841dc32bb12ead96e2af14facb30b663a8fcade9fee54",
+          "published_at": "2026-09-27T07:57:56.803896+00:00",
+          "sha256": "a2df9e85b198311628e094e44838aee1376e02ccb77f403684af96324c132d01",
           "file": "packages/media-player/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -2999,8 +2974,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:48.417621+00:00",
-          "sha256": "6bdec46d1a0eec464e25db65bea811a925efda4bda8cffbdf2d2cd6624a9356b",
+          "published_at": "2026-09-27T07:58:04.582488+00:00",
+          "sha256": "dac6fb70f06d6f929178b90ab133254150c67bceb85b4192547031a7753899cb",
           "file": "packages/video-to-gif-converter/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -3042,8 +3017,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:57.493340+00:00",
-          "sha256": "0127186f4bafbba444346c472cb73402b13925c65f994a72bb7f8b831d06e52a",
+          "published_at": "2026-09-27T07:58:12.919925+00:00",
+          "sha256": "f0af5f31a56f6557c956147e9415baa425f978fe805c43cf5047beb5d2326fb5",
           "file": "packages/media-downloader/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -3084,8 +3059,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:03:59.741059+00:00",
-          "sha256": "0bbfe85b3cf1ff5d570ab0ee71e767dacf359c827653b1593f4fd02426dd452f",
+          "published_at": "2026-09-27T07:58:14.977395+00:00",
+          "sha256": "577c8e4b0e66080bada6c19403bb4a6306e2deb93906d1c04b4cdb934642063e",
           "file": "packages/soundboard/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -3138,8 +3113,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:04:02.230820+00:00",
-          "sha256": "b448a18afdfc27641f8ccb03fa89e6e95044aa7de218dae3e718b6a6cc37d0af",
+          "published_at": "2026-09-27T07:58:17.382770+00:00",
+          "sha256": "5871bc363e22f7ba2a33475d4827c0f0a103ef5b8a7fd13b62393829f519ab6c",
           "file": "packages/game-server-manager/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -3191,8 +3166,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:04:02.948262+00:00",
-          "sha256": "35943ee03dfb2d3af561a5bb5f21340d16a54f5b1c5ed34d3c2011f23e312b9f",
+          "published_at": "2026-09-27T07:58:18.084787+00:00",
+          "sha256": "0a2640ddead687fe1f817e204c07130c00aeb8dcba3060bededfc764ef28be3b",
           "file": "packages/gaming-hub/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -3216,8 +3191,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:04:04.326577+00:00",
-          "sha256": "d9f3e7f0fdbc2c860c29b0a3eeb8d03c4316518eea14fb4df6bee2d1992f09fc",
+          "published_at": "2026-09-27T07:58:19.429034+00:00",
+          "sha256": "f2a64a6f321f3a44a95b075dfbd16af0138b7d67f841bf1e7158e419e24ff0bd",
           "file": "packages/file-manager/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -3253,8 +3228,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:04:05.157954+00:00",
-          "sha256": "924eefd555484298db1f50fdbaacb9f59b96c69d645119c6395191d070f669b9",
+          "published_at": "2026-09-27T07:58:20.276190+00:00",
+          "sha256": "6be2762f27e6ee51df5e063d55bb531003bb1ff9bacebca6b65afd3abd187f4c",
           "file": "packages/file-shredder/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -3278,8 +3253,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:04:05.742960+00:00",
-          "sha256": "fd97c857693aff27473146bcc5ff983adca9c220992b4576a9aaf1266073818e",
+          "published_at": "2026-09-27T07:58:20.845595+00:00",
+          "sha256": "866e300d1020f69ec6e2f9425402aa573efb018b8ae575921df95dc2c8c553b1",
           "file": "packages/folder-generator/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -3303,8 +3278,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:04:08.173472+00:00",
-          "sha256": "3d7578c9270e1d975b370e5665d0b6b9c47702a11c46d3a1b60e14de90a5d7d2",
+          "published_at": "2026-09-27T07:58:23.297847+00:00",
+          "sha256": "0770c079221ebea463dce4b2afb3fbfb08413912ed53b1832fdf6430acfd75f9",
           "file": "packages/hash-tools/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -3328,8 +3303,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:04:10.128675+00:00",
-          "sha256": "81cd8ae992ecb22605145657cdd163e285fa3217cf9104a5681559965e95150c",
+          "published_at": "2026-09-27T07:58:25.091506+00:00",
+          "sha256": "24d8335532e22c1c3a915c1823e4c57eb8f72f101f2089c2d27e46f0bfa41e0a",
           "file": "packages/save-editor/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -3378,8 +3353,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:04:10.973953+00:00",
-          "sha256": "7cf3176c79966933c066d5be64ba999f7c846982e9abddfc303bd6cf3b312642",
+          "published_at": "2026-09-27T07:58:25.952593+00:00",
+          "sha256": "39c517e050083f6b08bd284013e5c6f762b7ba0e2050022a30c6093e96d04f70",
           "file": "packages/module-development-guide/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -3403,8 +3378,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:04:11.540459+00:00",
-          "sha256": "7c0d5ef358ff7bdc885477db8e47b051187b9bb07f4046e94dc7e3a8c1aa90c5",
+          "published_at": "2026-09-27T07:58:26.469151+00:00",
+          "sha256": "3c7cfb230ec69b3afe2c38dedb3cbf2f81cfd7d885481843f2ecf426d8b455f6",
           "file": "packages/color-picker/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {},
@@ -3428,8 +3403,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:04:12.829755+00:00",
-          "sha256": "19e654f033c63e83fba765f66549d996120296a8c98c25c99b08aef96d509a78",
+          "published_at": "2026-09-27T07:58:27.703286+00:00",
+          "sha256": "1e13ccd830553e56e266989c77759291beafc7de5cb5327c21fcf37296928373",
           "file": "packages/icon-favicon-generator/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -3460,8 +3435,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:04:14.397038+00:00",
-          "sha256": "962843e3bf6aefa8e5934eedb47850683670651f29ffd45dce8c4a281826e2a1",
+          "published_at": "2026-09-27T07:58:29.197299+00:00",
+          "sha256": "7136b5fac78977c2bf5026e07301203f7cced1d30b78e62b420fa83b93b9eadf",
           "file": "packages/image-palette-extractor/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
@@ -3492,8 +3467,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T07:04:16.201753+00:00",
-          "sha256": "3565d1b7038f5da7891ec9be5acc009664b10e6ada990cd6dfc357ab1455192f",
+          "published_at": "2026-09-27T07:58:30.773860+00:00",
+          "sha256": "97a1946291356221030eb97d9ff12d1a0be8107eb486d29a840ef09a9112779b",
           "file": "packages/qr-generator/build-1.zmod",
           "author": "Zyvelia",
           "python_dependencies": {
