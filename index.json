@@ -1,6 +1,6 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-09-27T19:40:43.163768+00:00",
+  "updated": "2026-10-04T02:23:58.177875+00:00",
   "modules": [
     {
       "id": "ai-chat",
@@ -919,48 +919,6 @@
             {
               "file": "dependencies/winrt_runtime-3.2.1-cp314-cp314-win_amd64.whl",
               "sha256": "e36e587ab5fd681ee472cd9a5995743f75107a1a84d749c64f7e490bc86bc814"
-            }
-          ],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "media-metadata-editor",
-      "name": "Media Metadata Editor",
-      "category": "Media",
-      "desc": "Edit audio tags, image EXIF fields, and file timestamps",
-      "icon": "\ud83c\udff7\ufe0f",
-      "publisher": "official",
-      "author": "Zyvelia",
-      "latest_build": 1,
-      "min_app_version": "4.0.5",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-09-27",
-          "published_at": "2026-09-27T19:40:13.228163+00:00",
-          "sha256": "a130d1e7dbfc5cdf34c2ea7943d1102d29c43c64d0564232e66108cb1d9e4496",
-          "file": "packages/media-metadata-editor/build-1.zmod",
-          "author": "Zyvelia",
-          "python_dependencies": {
-            "Pillow": "==12.3.0",
-            "mutagen": "==1.48.1",
-            "pywin32": "==312"
-          },
-          "bundled_python_dependencies": [
-            {
-              "file": "dependencies/mutagen-1.48.1-py3-none-any.whl",
-              "sha256": "4f077fe87d3fc7fba259aa63d8c026b18382ca6a42ef37c61e16f1b1b5b82fe7"
-            },
-            {
-              "file": "dependencies/pillow-12.3.0-cp314-cp314-win_amd64.whl",
-              "sha256": "fdafc9cce40277e0f7a0feabce0ee50dd2fa1800f3b38015e51296b5e814048d"
-            },
-            {
-              "file": "dependencies/pywin32-312-cp314-cp314-win_amd64.whl",
-              "sha256": "a4dd3a848290ef724347b19f301045831d8e802fa4464f491b98b1e0a081432e"
             }
           ],
           "native_dependencies": {},
@@ -3404,6 +3362,64 @@
               "sha256": "16e64e0716c14960108e85d853062c9e8bba5ca8252c0b4d0231b9df4060ff4f"
             }
           ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "media-metadata-editor",
+      "name": "Media Metadata Editor",
+      "category": "Media",
+      "desc": "Edit audio tags, image EXIF fields, and file timestamps",
+      "icon": "\ud83c\udff7\ufe0f",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-09-27",
+          "published_at": "2026-09-27T19:40:13.228163+00:00",
+          "sha256": "a130d1e7dbfc5cdf34c2ea7943d1102d29c43c64d0564232e66108cb1d9e4496",
+          "file": "packages/media-metadata-editor/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "Pillow": "==12.3.0",
+            "mutagen": "==1.48.1",
+            "pywin32": "==312"
+          },
+          "bundled_python_dependencies": [
+            {
+              "file": "dependencies/mutagen-1.48.1-py3-none-any.whl",
+              "sha256": "4f077fe87d3fc7fba259aa63d8c026b18382ca6a42ef37c61e16f1b1b5b82fe7"
+            },
+            {
+              "file": "dependencies/pillow-12.3.0-cp314-cp314-win_amd64.whl",
+              "sha256": "fdafc9cce40277e0f7a0feabce0ee50dd2fa1800f3b38015e51296b5e814048d"
+            },
+            {
+              "file": "dependencies/pywin32-312-cp314-cp314-win_amd64.whl",
+              "sha256": "a4dd3a848290ef724347b19f301045831d8e802fa4464f491b98b1e0a081432e"
+            }
+          ],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-04",
+          "published_at": "2026-10-04T02:23:57.711579+00:00",
+          "sha256": "d624ee3fad63cd813ba0a90ee6a39a24417106715990e0f276fb9de0f939acf4",
+          "file": "packages/media-metadata-editor/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0",
+            "mutagen": "==1.48.1",
+            "pywin32": ""
+          },
+          "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
         }
