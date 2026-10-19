@@ -1,18 +1,7 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-10-19T03:16:32.452798+00:00",
+  "updated": "2026-10-19T12:38:01.297473+00:00",
   "modules": [
-    {
-      "id": "save-editor",
-      "name": "Save Editor",
-      "category": "Files",
-      "desc": "Open, inspect, and edit game save files \u2014 JSON, XML, YAML, INI, compressed/encoded/encrypted saves, and any unrecognized binary save (readable-text view, value search, and custom named-field layouts).",
-      "icon": "\ud83d\udcbe",
-      "publisher": "official",
-      "latest_build": 0,
-      "included_with_app": true,
-      "releases": []
-    },
     {
       "id": "ai-chat",
       "name": "AI Chat",
@@ -21,7 +10,7 @@
       "icon": "\ud83e\udd16",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -59,6 +48,184 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:24.548160+00:00",
+          "sha256": "eb5955d514f248c54159c8ea7c6bf257ef953aea6aac61da98f71a49739eba9f",
+          "file": "packages/ai-chat/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "firebase-admin": "",
+            "openai": "",
+            "psutil": "",
+            "pyperclip": "",
+            "requests": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "ai-virus-defender",
+      "name": "AI Virus Defender",
+      "category": "Security",
+      "desc": "Defender-style lightweight real-time protection with staged detectors, resource-aware background monitoring, queued scans, and AI investigation only for suspicious activity. Heuristic AI scanner v3. Process scan: name spoof, parent-chain validation, hidden PIDs. Memory scan: RWX unbacked regions, injected MZ headers, DLL injection, process hollowing (PE timestamp mismatch). Persistence: registry Run keys, startup folders, scheduled tasks, WMI subscriptions, services, IFEO hijacks, AppInit_DLLs. Filesystem: threaded deep-scan with YARA-style patterns, per-section entropy, overlay detection, Authenticode check. Quarantine: AES-256-CBC encrypted with HMAC integrity, restore/purge, manifest. Self-protection: DACL process guard + scheduled-task watchdog relaunch. Settings: in-UI config editor persisted to JSON, hot-applied without restart.",
+      "icon": "\ud83d\udee1\ufe0f",
+      "publisher": "official",
+      "author": "Zyvelia",
+      "latest_build": 2,
+      "min_app_version": "4.0.5",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:47.986282+00:00",
+          "sha256": "686e588851bb2f15b1e05369e3f62b900cc764d20d6050d50f9ff5555777c5f6",
+          "file": "packages/ai-virus-defender/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "WMI": "",
+            "cryptography": ">=41.0",
+            "psutil": "",
+            "pywin32": "==312"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:06.549316+00:00",
+          "sha256": "686e588851bb2f15b1e05369e3f62b900cc764d20d6050d50f9ff5555777c5f6",
+          "file": "packages/ai-virus-defender/build-1.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "WMI": "",
+            "cryptography": ">=41.0",
+            "psutil": "",
+            "pywin32": "==312"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:27.721293+00:00",
+          "sha256": "b4bdbba9d34e1e78933bcbcbdd2f3395bdb48ca614904a258fc52894897360e2",
+          "file": "packages/ai-virus-defender/build-2.zmod",
+          "author": "Zyvelia",
+          "python_dependencies": {
+            "cryptography": ">=41.0",
+            "psutil": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "app-installer",
+      "name": "App Installer",
+      "category": "Utilities",
+      "desc": "Search and install apps via winget, or run your own custom install commands.",
+      "icon": "\ud83d\udce6",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:57.692227+00:00",
+          "sha256": "c614556679a30aa89aba0fb610bc03e5b98398c3cf11da50ee7c8c96580300f6",
+          "file": "packages/app-installer/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:18.325386+00:00",
+          "sha256": "c614556679a30aa89aba0fb610bc03e5b98398c3cf11da50ee7c8c96580300f6",
+          "file": "packages/app-installer/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:28.491242+00:00",
+          "sha256": "2a729cf706344bfa0f1fb46d010e9712aa03054df9443ebda06bfb69d867c9c7",
+          "file": "packages/app-installer/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "clipboard-manager",
+      "name": "Clipboard Manager",
+      "category": "Productivity",
+      "desc": "Tracks your clipboard history \u2014 search, pin, and re-copy past items.",
+      "icon": "\ud83d\udccb",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:45.262565+00:00",
+          "sha256": "63276a8fa95fece7aafc818de8819f3bf6f5c78ca11d24470149151a1690d5a2",
+          "file": "packages/clipboard-manager/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:02.836076+00:00",
+          "sha256": "63276a8fa95fece7aafc818de8819f3bf6f5c78ca11d24470149151a1690d5a2",
+          "file": "packages/clipboard-manager/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:28.954709+00:00",
+          "sha256": "838208dfa56f23aff2e9ec3fdc7dcc5c5f9deba0a86eab3465ee4eb215b8cbc7",
+          "file": "packages/clipboard-manager/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -70,7 +237,7 @@
       "icon": "\ud83c\udfa8",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -96,44 +263,15 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "icon-favicon-generator",
-      "name": "Icon/Favicon Generator",
-      "category": "Design",
-      "desc": "Turn one image into a full favicon.ico + PNG icon set + site.webmanifest.",
-      "icon": "\ud83e\udde9",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:31:15.687395+00:00",
-          "sha256": "32db0baeaa95a240187b2cf30d84f69d0908b0583aff7dfbbcf1cbb2d11a4745",
-          "file": "packages/icon-favicon-generator/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {
-            "Pillow": "==12.3.0"
-          },
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
         },
         {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:04:01.965704+00:00",
-          "sha256": "32db0baeaa95a240187b2cf30d84f69d0908b0583aff7dfbbcf1cbb2d11a4745",
-          "file": "packages/icon-favicon-generator/build-1.zmod",
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:29.398291+00:00",
+          "sha256": "ffe98d9a7728608c1522b49ad1aa9caf53cb05ac900658d069c92c609b122064",
+          "file": "packages/color-picker/build-2.zmod",
           "author": "official",
-          "python_dependencies": {
-            "Pillow": "==12.3.0"
-          },
+          "python_dependencies": {},
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
@@ -141,63 +279,22 @@
       ]
     },
     {
-      "id": "image-palette-extractor",
-      "name": "Image Palette Extractor",
-      "category": "Design",
-      "desc": "Pull the dominant colors out of any image as copyable hex/RGB swatches.",
-      "icon": "\ud83d\uddbc\ufe0f",
+      "id": "disposable-sandbox",
+      "name": "Disposable Sandbox",
+      "category": "System",
+      "desc": "Linked-clone a VMware snapshot, share a read-only drop folder, then delete the clone when it powers off.",
+      "icon": "\ud83e\uddca",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:31:17.501256+00:00",
-          "sha256": "2e0f72295e11cd61da89678c774a72e7bfa007a97afd85d1277163a78d3dccac",
-          "file": "packages/image-palette-extractor/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {
-            "Pillow": "==12.3.0"
-          },
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:04:03.601521+00:00",
-          "sha256": "2e0f72295e11cd61da89678c774a72e7bfa007a97afd85d1277163a78d3dccac",
-          "file": "packages/image-palette-extractor/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {
-            "Pillow": "==12.3.0"
-          },
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "module-development-guide",
-      "name": "Module Development Guide",
-      "category": "Developer",
-      "desc": "Learn how to create, test, and submit modules for Z's Multi Tool.",
-      "icon": "\ud83d\udcd6",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:31:18.335378+00:00",
-          "sha256": "c396d4e719a8bbcf4cbf95e14de4de9917054339d49843f06d5789725f413502",
-          "file": "packages/module-development-guide/build-1.zmod",
+          "published_at": "2026-10-18T17:32:51.138418+00:00",
+          "sha256": "5daee08a9494981b949e477f0e0ef6289bcc52b33796dbec2435e3e97324b99f",
+          "file": "packages/disposable-sandbox/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
           "bundled_python_dependencies": [],
@@ -207,9 +304,223 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:04:04.222787+00:00",
-          "sha256": "c396d4e719a8bbcf4cbf95e14de4de9917054339d49843f06d5789725f413502",
-          "file": "packages/module-development-guide/build-1.zmod",
+          "published_at": "2026-10-19T01:06:10.505646+00:00",
+          "sha256": "5daee08a9494981b949e477f0e0ef6289bcc52b33796dbec2435e3e97324b99f",
+          "file": "packages/disposable-sandbox/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:29.836720+00:00",
+          "sha256": "b6d931fd55325baa1b4c9aa2d1d2a0152ecc01c2e233bd6317bbce3bb1099dd5",
+          "file": "packages/disposable-sandbox/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "driver-update-checker",
+      "name": "Driver/Update Checker",
+      "category": "System",
+      "desc": "Review installed drivers and check for driver and software updates.",
+      "icon": "\ud83d\udd27",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:52.476187+00:00",
+          "sha256": "26eb4b63da6dc2f9e5e87bd367f0e9e337a84fd4ce93278d3f7c40db15f2939b",
+          "file": "packages/driver-update-checker/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "pywin32": "==312"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:12.049947+00:00",
+          "sha256": "26eb4b63da6dc2f9e5e87bd367f0e9e337a84fd4ce93278d3f7c40db15f2939b",
+          "file": "packages/driver-update-checker/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "pywin32": "==312"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:31.296274+00:00",
+          "sha256": "f7e94cea9806719708503b06f0be782c73830d38996f2ce5e28a44f5fd81d238",
+          "file": "packages/driver-update-checker/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "pywin32": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "duplicate-file-finder",
+      "name": "Duplicate File Finder",
+      "category": "System",
+      "desc": "Scan folders for byte-identical files and reclaim the wasted space.",
+      "icon": "\ud83e\uddec",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:53.337959+00:00",
+          "sha256": "81350745846707a3f61d30f2fa68f3e542fd48bc337e4ee596448bfb428b968e",
+          "file": "packages/duplicate-file-finder/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:12.915730+00:00",
+          "sha256": "81350745846707a3f61d30f2fa68f3e542fd48bc337e4ee596448bfb428b968e",
+          "file": "packages/duplicate-file-finder/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:31.886857+00:00",
+          "sha256": "12d522fd3ab4a951aedf240e0e18a0b7477a3d62259667ab4f89ab6defe48a81",
+          "file": "packages/duplicate-file-finder/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "environment-checker",
+      "name": "Environment Checker",
+      "category": "System",
+      "desc": "See what's installed for this app \u2014 VLC, Tailscale, WebView2, and more.",
+      "icon": "\ud83e\ude7a",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:53.779212+00:00",
+          "sha256": "33a87a8b7fdd777c9382df8dbd87f28f99dec1afe2fbd1ce2ddb10a4d075ed9a",
+          "file": "packages/environment-checker/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:13.630789+00:00",
+          "sha256": "33a87a8b7fdd777c9382df8dbd87f28f99dec1afe2fbd1ce2ddb10a4d075ed9a",
+          "file": "packages/environment-checker/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:32.304032+00:00",
+          "sha256": "f71339fa49c89bf88c0042de099cc101c22ca96ce4002151052d4badf264d627",
+          "file": "packages/environment-checker/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "file-encryption",
+      "name": "File Encryption",
+      "category": "Security",
+      "desc": "Encrypt and decrypt files to keep their contents private.",
+      "icon": "\ud83d\udd12",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:49.371238+00:00",
+          "sha256": "ab6a02cb5a706387df923f4d19c96ee5d99465eab24c6742febb2388b5a17109",
+          "file": "packages/file-encryption/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:07.789619+00:00",
+          "sha256": "ab6a02cb5a706387df923f4d19c96ee5d99465eab24c6742febb2388b5a17109",
+          "file": "packages/file-encryption/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:32.673037+00:00",
+          "sha256": "c7daf74b5f4a86e68978e52280ea648c1d9d70b9473ac566d37bc6b95d45440e",
+          "file": "packages/file-encryption/build-2.zmod",
           "author": "official",
           "python_dependencies": {},
           "bundled_python_dependencies": [],
@@ -226,7 +537,7 @@
       "icon": "\ud83d\udcc1",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -258,6 +569,21 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:34.283449+00:00",
+          "sha256": "9a628b17e598913cd9e6c72f0a0dad6aa4cf60b2c446af1d1afc97ef5a713dd7",
+          "file": "packages/file-manager/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0",
+            "mutagen": "==1.48.1"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -269,7 +595,7 @@
       "icon": "\ud83d\uddd1",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -295,6 +621,18 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:34.938374+00:00",
+          "sha256": "933c7b3c1649ee38b1354430fc47b29ae1a0c2bce382a75c4cd102750b6e2182",
+          "file": "packages/file-shredder/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -306,7 +644,7 @@
       "icon": "\ud83d\uddc2",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -332,6 +670,18 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:35.394681+00:00",
+          "sha256": "54233996fb4b600e036704e702299f60adf305551bc203f4f83b9e136d58d259",
+          "file": "packages/folder-generator/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -343,7 +693,7 @@
       "icon": "\ud83c\udfae",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -375,6 +725,262 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:38.430044+00:00",
+          "sha256": "6453eab0085248462a319e20e18bc2c4046217061ee35fdbe0e58eb7189d154c",
+          "file": "packages/game-server-manager/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "requests": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "game-stats-news",
+      "name": "Game Stats & News",
+      "category": "Utilities",
+      "desc": "Live game stats via your own API keys (Fortnite, Steam, or any custom API), plus custom news feeds and saved articles",
+      "icon": "\ud83d\udd79\ufe0f",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:59.497588+00:00",
+          "sha256": "f45561b66cecd9dd68ec4c21a1b489e90c20d21521b6b6dc1bb251837558c21c",
+          "file": "packages/game-stats-news/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "cryptography": "==50.0.2",
+            "requests": "==2.34.2"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:20.658127+00:00",
+          "sha256": "f45561b66cecd9dd68ec4c21a1b489e90c20d21521b6b6dc1bb251837558c21c",
+          "file": "packages/game-stats-news/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "cryptography": "==50.0.2",
+            "requests": "==2.34.2"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:40.467810+00:00",
+          "sha256": "81f12a2ddbdbc605aa1a5316f1e6d2577a3bfef8472ae6715fb3e895c29d47ac",
+          "file": "packages/game-stats-news/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "cryptography": "==49.0.0",
+            "requests": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "gaming-hub",
+      "name": "Gaming Hub",
+      "category": "Gaming",
+      "desc": "Scan, launch and manage games.",
+      "icon": "\ud83c\udfae",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 1,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:41.091926+00:00",
+          "sha256": "e91a5c1cdd7eb32e63910563fbc34c5bf966efca9f46a8af982b1ad32b32849a",
+          "file": "packages/gaming-hub/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "hash-tools",
+      "name": "Hash Tools",
+      "category": "Security",
+      "desc": "Generate and verify hashes",
+      "icon": "\ud83d\udd0d",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:49.812869+00:00",
+          "sha256": "f3239ee699d89275233081832b66090870b8c3741a24d14a0f8933129c25a8ee",
+          "file": "packages/hash-tools/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:08.468526+00:00",
+          "sha256": "f3239ee699d89275233081832b66090870b8c3741a24d14a0f8933129c25a8ee",
+          "file": "packages/hash-tools/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:41.545291+00:00",
+          "sha256": "e1daff92b5ec38f007b211ce174ab3544dfa7d64f37515cc33d09fed1ccad365",
+          "file": "packages/hash-tools/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "icon-favicon-generator",
+      "name": "Icon/Favicon Generator",
+      "category": "Design",
+      "desc": "Turn one image into a full favicon.ico + PNG icon set + site.webmanifest.",
+      "icon": "\ud83e\udde9",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:31:15.687395+00:00",
+          "sha256": "32db0baeaa95a240187b2cf30d84f69d0908b0583aff7dfbbcf1cbb2d11a4745",
+          "file": "packages/icon-favicon-generator/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:04:01.965704+00:00",
+          "sha256": "32db0baeaa95a240187b2cf30d84f69d0908b0583aff7dfbbcf1cbb2d11a4745",
+          "file": "packages/icon-favicon-generator/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:42.881987+00:00",
+          "sha256": "374625590777cff710e357d949546dcc61a1f812bf830867ea965384f1364e22",
+          "file": "packages/icon-favicon-generator/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "image-palette-extractor",
+      "name": "Image Palette Extractor",
+      "category": "Design",
+      "desc": "Pull the dominant colors out of any image as copyable hex/RGB swatches.",
+      "icon": "\ud83d\uddbc\ufe0f",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:31:17.501256+00:00",
+          "sha256": "2e0f72295e11cd61da89678c774a72e7bfa007a97afd85d1277163a78d3dccac",
+          "file": "packages/image-palette-extractor/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:04:03.601521+00:00",
+          "sha256": "2e0f72295e11cd61da89678c774a72e7bfa007a97afd85d1277163a78d3dccac",
+          "file": "packages/image-palette-extractor/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:44.410362+00:00",
+          "sha256": "e60bb28e9cd662ba04a7db2de75bebd7a01a4ddee1c689932db80f5370564dd9",
+          "file": "packages/image-palette-extractor/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -386,7 +992,7 @@
       "icon": "\ud83d\udcd6",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -420,6 +1026,22 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:46.421720+00:00",
+          "sha256": "5e7d134b88c5ffbc84cb3024e9b99380cb89556d422e2af61a5609606be077ee",
+          "file": "packages/mangadex-reader/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "pywin32": "",
+            "requests": "",
+            "winrt-runtime": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -431,7 +1053,7 @@
       "icon": "\u25b6",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -465,6 +1087,20 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:48.059898+00:00",
+          "sha256": "dbc566c7a0e8548e7cd8152f2183846d4e9a4d2595b0ee7dcccf45134b0f0b57",
+          "file": "packages/media-downloader/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "yt-dlp": ">=2024.1.1"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -476,7 +1112,7 @@
       "icon": "\ud83c\udff7\ufe0f",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -510,6 +1146,22 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:49.668606+00:00",
+          "sha256": "ff70b78557d5bea3226002354ace21cce9c3ca0125ed282b6087ac78740cf9b0",
+          "file": "packages/media-metadata-editor/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0",
+            "mutagen": "==1.48.1",
+            "pywin32": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -521,7 +1173,7 @@
       "icon": "\ud83c\udfb5",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -561,32 +1213,47 @@
             "vlc-win64": "3.0.21"
           },
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:52.510447+00:00",
+          "sha256": "d68cb1059448deff86d8bba87fde4563bb373f3b9888ac8cd7ef619e4e5f0864",
+          "file": "packages/media-player/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "mutagen": "==1.48.1",
+            "playwright": "==1.63.0",
+            "python-vlc": "==3.0.21203",
+            "watchdog": "==6.0.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {
+            "vlc-win64": "3.0.21"
+          },
+          "bundled_native_assets": []
         }
       ]
     },
     {
-      "id": "soundboard",
-      "name": "Soundboard",
-      "category": "Media",
-      "desc": "Play sounds through your mic or audio device",
-      "icon": "\ud83d\udd0a",
+      "id": "module-development-guide",
+      "name": "Module Development Guide",
+      "category": "Developer",
+      "desc": "Learn how to create, test, and submit modules for Z's Multi Tool.",
+      "icon": "\ud83d\udcd6",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:14.845339+00:00",
-          "sha256": "7d5586be4ba06fd44422ff4137aae54ad6cbffd0add4e763fc60ce5cd4c6af75",
-          "file": "packages/soundboard/build-1.zmod",
+          "published_at": "2026-10-18T17:31:18.335378+00:00",
+          "sha256": "c396d4e719a8bbcf4cbf95e14de4de9917054339d49843f06d5789725f413502",
+          "file": "packages/module-development-guide/build-1.zmod",
           "author": "official",
-          "python_dependencies": {
-            "numpy": "==2.5.2",
-            "sounddevice": "",
-            "soundfile": ""
-          },
+          "python_dependencies": {},
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
@@ -594,58 +1261,25 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:05:18.596713+00:00",
-          "sha256": "7d5586be4ba06fd44422ff4137aae54ad6cbffd0add4e763fc60ce5cd4c6af75",
-          "file": "packages/soundboard/build-1.zmod",
+          "published_at": "2026-10-19T01:04:04.222787+00:00",
+          "sha256": "c396d4e719a8bbcf4cbf95e14de4de9917054339d49843f06d5789725f413502",
+          "file": "packages/module-development-guide/build-1.zmod",
           "author": "official",
-          "python_dependencies": {
-            "numpy": "==2.5.2",
-            "sounddevice": "",
-            "soundfile": ""
-          },
+          "python_dependencies": {},
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "video-to-gif-converter",
-      "name": "Video to GIF Converter",
-      "category": "Media",
-      "desc": "Convert video files to optimized GIFs \u2014 no command line.",
-      "icon": "\ud83c\udf9e",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:24.215692+00:00",
-          "sha256": "7ad806ae5e8cd1291f4f4fbcd135e0d319b45cfbb1d0a927c3a8dd4d7acec34b",
-          "file": "packages/video-to-gif-converter/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {
-            "ffmpeg-win64": "7.1-essentials"
-          },
-          "bundled_native_assets": []
         },
         {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:05:42.173368+00:00",
-          "sha256": "7ad806ae5e8cd1291f4f4fbcd135e0d319b45cfbb1d0a927c3a8dd4d7acec34b",
-          "file": "packages/video-to-gif-converter/build-1.zmod",
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:10.615088+00:00",
+          "sha256": "a31871f4b773a104f9803a81bb1e174ce3ccf5c98754e1f659d1d6a09ca65225",
+          "file": "packages/module-development-guide/build-2.zmod",
           "author": "official",
           "python_dependencies": {},
           "bundled_python_dependencies": [],
-          "native_dependencies": {
-            "ffmpeg-win64": "7.1-essentials"
-          },
+          "native_dependencies": {},
           "bundled_native_assets": []
         }
       ]
@@ -658,7 +1292,7 @@
       "icon": "\ud83c\udf10",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -692,6 +1326,129 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:15.064008+00:00",
+          "sha256": "4f93d4f7a14124d8427aad572a6d512aafdee929ee1c025301a792d422c4530e",
+          "file": "packages/network-auditor/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "python-nmap": "",
+            "requests": "",
+            "scapy": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "name": "Notes",
+      "category": "Productivity",
+      "desc": "Free-form notes with attached links",
+      "icon": "\ud83d\udcdd",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:45.728899+00:00",
+          "sha256": "42fc9fddaebdf80e54150ea5c682adcc8ed0bd13b16a86e7cebd417e52a8fbd8",
+          "file": "packages/notes/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:03.584477+00:00",
+          "sha256": "42fc9fddaebdf80e54150ea5c682adcc8ed0bd13b16a86e7cebd417e52a8fbd8",
+          "file": "packages/notes/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:15.518502+00:00",
+          "sha256": "e4352222c802167b609dca3c2f49f0dbf0080c3d460ff6ad32390e7594e847f9",
+          "file": "packages/notes/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "qr-generator",
+      "name": "QR Generator",
+      "category": "Utilities",
+      "desc": "Turns text, URLs, Wi-Fi credentials, or contact info into a QR code you can save or share.",
+      "icon": "\ud83d\udd33",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:33:01.408465+00:00",
+          "sha256": "7daff1aad0612158bd0b763b4fb784765638e3dd116d5bfced6af7e167afc29d",
+          "file": "packages/qr-generator/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0",
+            "qrcode": "==8.2"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:22.981830+00:00",
+          "sha256": "7daff1aad0612158bd0b763b4fb784765638e3dd116d5bfced6af7e167afc29d",
+          "file": "packages/qr-generator/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0",
+            "qrcode": "==8.2"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:17.092336+00:00",
+          "sha256": "be6caaddfbfe75f9d1eac241a4170e288e5687469e71523b96cb16f135856ce7",
+          "file": "packages/qr-generator/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0",
+            "qrcode": "==8.2"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -703,7 +1460,7 @@
       "icon": "\ud83d\udce4",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -729,6 +1486,18 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:17.675526+00:00",
+          "sha256": "2d58670e2dd349a25d84534fccbfaee043047567d591c2d4fa0f2cbc7cd6826b",
+          "file": "packages/quick-send/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -740,7 +1509,7 @@
       "icon": "\ud83d\udce1",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -766,6 +1535,206 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:18.039825+00:00",
+          "sha256": "7bfe8eca41cd58d8ae1c058cd6b1512dcc30d1ce7a57025467c659f468b1e043",
+          "file": "packages/remote-hub/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "save-editor",
+      "name": "Save Editor",
+      "category": "Files",
+      "desc": "Universal save editor with an AppData game library: JSON displays, decrypt profiles, and optional per-game workspaces (e.g. Borderlands 4).",
+      "icon": "\ud83d\udcbe",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 1,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:39.355565+00:00",
+          "sha256": "9b663c3324f88cf68f2884bac5527bb5ba5fafa4ed49a60d844c1844b39d0050",
+          "file": "packages/save-editor/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "bl3-cli-saveedit": ">=1.18.0",
+            "setuptools": ">=65.0.0",
+            "ttwl-cli-saveedit": ">=1.0.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "secure-vault",
+      "name": "Secure Vault",
+      "category": "Security",
+      "desc": "Encrypted passwords and authenticator (2FA) codes, in one place.",
+      "icon": "\ud83d\udd10",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:50.255901+00:00",
+          "sha256": "30ac305a8fb4de7f86e8c92859ed34817eca7460318f42e31bf6ef902b9a6d2a",
+          "file": "packages/secure-vault/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:09.125029+00:00",
+          "sha256": "30ac305a8fb4de7f86e8c92859ed34817eca7460318f42e31bf6ef902b9a6d2a",
+          "file": "packages/secure-vault/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:40.601439+00:00",
+          "sha256": "708b6ca1e37845670bb0460ebfa3a5adfa43a9fccbd4d73c78657f37422ea926",
+          "file": "packages/secure-vault/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "security-center",
+      "name": "Security Center",
+      "category": "Security",
+      "desc": "Breach checks (HIBP) + vault password audit \u2014 weak, reused, and leaked passwords.",
+      "icon": "\ud83d\udee1",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:50.693813+00:00",
+          "sha256": "ac8a4895a29d8864372e4601c6e3c28bf070c053e5eeaa306e5abcc56e3b2297",
+          "file": "packages/security-center/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:06:09.876648+00:00",
+          "sha256": "ac8a4895a29d8864372e4601c6e3c28bf070c053e5eeaa306e5abcc56e3b2297",
+          "file": "packages/security-center/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:40.949486+00:00",
+          "sha256": "3c22a78e6f174e48beafe28710015eb1d1fa9f08816952d825abbad523674a0b",
+          "file": "packages/security-center/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "soundboard",
+      "name": "Soundboard",
+      "category": "Media",
+      "desc": "Play sounds through your mic or audio device",
+      "icon": "\ud83d\udd0a",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 2,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:32:14.845339+00:00",
+          "sha256": "7d5586be4ba06fd44422ff4137aae54ad6cbffd0add4e763fc60ce5cd4c6af75",
+          "file": "packages/soundboard/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "numpy": "==2.5.2",
+            "sounddevice": "",
+            "soundfile": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:05:18.596713+00:00",
+          "sha256": "7d5586be4ba06fd44422ff4137aae54ad6cbffd0add4e763fc60ce5cd4c6af75",
+          "file": "packages/soundboard/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "numpy": "==2.5.2",
+            "sounddevice": "",
+            "soundfile": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:43.093333+00:00",
+          "sha256": "e5487ef3cbbb24561f122cb0ade5605cef247cd906e9ad36b0607f06cee1a870",
+          "file": "packages/soundboard/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "numpy": "==2.5.2",
+            "sounddevice": "",
+            "soundfile": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -777,7 +1746,7 @@
       "icon": "\ud83d\udda5",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -809,424 +1778,18 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "clipboard-manager",
-      "name": "Clipboard Manager",
-      "category": "Productivity",
-      "desc": "Tracks your clipboard history \u2014 search, pin, and re-copy past items.",
-      "icon": "\ud83d\udccb",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:45.262565+00:00",
-          "sha256": "63276a8fa95fece7aafc818de8819f3bf6f5c78ca11d24470149151a1690d5a2",
-          "file": "packages/clipboard-manager/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
         },
         {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:02.836076+00:00",
-          "sha256": "63276a8fa95fece7aafc818de8819f3bf6f5c78ca11d24470149151a1690d5a2",
-          "file": "packages/clipboard-manager/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "notes",
-      "name": "Notes",
-      "category": "Productivity",
-      "desc": "Free-form notes with attached links",
-      "icon": "\ud83d\udcdd",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:45.728899+00:00",
-          "sha256": "42fc9fddaebdf80e54150ea5c682adcc8ed0bd13b16a86e7cebd417e52a8fbd8",
-          "file": "packages/notes/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:03.584477+00:00",
-          "sha256": "42fc9fddaebdf80e54150ea5c682adcc8ed0bd13b16a86e7cebd417e52a8fbd8",
-          "file": "packages/notes/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "ai-virus-defender",
-      "name": "AI Virus Defender",
-      "category": "Security",
-      "desc": "Defender-style lightweight real-time protection with staged detectors, resource-aware background monitoring, queued scans, and AI investigation only for suspicious activity. Heuristic AI scanner v3. Process scan: name spoof, parent-chain validation, hidden PIDs. Memory scan: RWX unbacked regions, injected MZ headers, DLL injection, process hollowing (PE timestamp mismatch). Persistence: registry Run keys, startup folders, scheduled tasks, WMI subscriptions, services, IFEO hijacks, AppInit_DLLs. Filesystem: threaded deep-scan with YARA-style patterns, per-section entropy, overlay detection, Authenticode check. Quarantine: AES-256-CBC encrypted with HMAC integrity, restore/purge, manifest. Self-protection: DACL process guard + scheduled-task watchdog relaunch. Settings: in-UI config editor persisted to JSON, hot-applied without restart.",
-      "icon": "\ud83d\udee1\ufe0f",
-      "publisher": "official",
-      "author": "Zyvelia",
-      "latest_build": 1,
-      "min_app_version": "4.0.5",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:47.986282+00:00",
-          "sha256": "686e588851bb2f15b1e05369e3f62b900cc764d20d6050d50f9ff5555777c5f6",
-          "file": "packages/ai-virus-defender/build-1.zmod",
-          "author": "Zyvelia",
-          "python_dependencies": {
-            "WMI": "",
-            "cryptography": ">=41.0",
-            "psutil": "",
-            "pywin32": "==312"
-          },
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:06.549316+00:00",
-          "sha256": "686e588851bb2f15b1e05369e3f62b900cc764d20d6050d50f9ff5555777c5f6",
-          "file": "packages/ai-virus-defender/build-1.zmod",
-          "author": "Zyvelia",
-          "python_dependencies": {
-            "WMI": "",
-            "cryptography": ">=41.0",
-            "psutil": "",
-            "pywin32": "==312"
-          },
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "file-encryption",
-      "name": "File Encryption",
-      "category": "Security",
-      "desc": "Encrypt and decrypt files to keep their contents private.",
-      "icon": "\ud83d\udd12",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:49.371238+00:00",
-          "sha256": "ab6a02cb5a706387df923f4d19c96ee5d99465eab24c6742febb2388b5a17109",
-          "file": "packages/file-encryption/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:07.789619+00:00",
-          "sha256": "ab6a02cb5a706387df923f4d19c96ee5d99465eab24c6742febb2388b5a17109",
-          "file": "packages/file-encryption/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "hash-tools",
-      "name": "Hash Tools",
-      "category": "Security",
-      "desc": "Generate and verify hashes",
-      "icon": "\ud83d\udd0d",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:49.812869+00:00",
-          "sha256": "f3239ee699d89275233081832b66090870b8c3741a24d14a0f8933129c25a8ee",
-          "file": "packages/hash-tools/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:08.468526+00:00",
-          "sha256": "f3239ee699d89275233081832b66090870b8c3741a24d14a0f8933129c25a8ee",
-          "file": "packages/hash-tools/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "secure-vault",
-      "name": "Secure Vault",
-      "category": "Security",
-      "desc": "Encrypted passwords and authenticator (2FA) codes, in one place.",
-      "icon": "\ud83d\udd10",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:50.255901+00:00",
-          "sha256": "30ac305a8fb4de7f86e8c92859ed34817eca7460318f42e31bf6ef902b9a6d2a",
-          "file": "packages/secure-vault/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:09.125029+00:00",
-          "sha256": "30ac305a8fb4de7f86e8c92859ed34817eca7460318f42e31bf6ef902b9a6d2a",
-          "file": "packages/secure-vault/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "security-center",
-      "name": "Security Center",
-      "category": "Security",
-      "desc": "Breach checks (HIBP) + vault password audit \u2014 weak, reused, and leaked passwords.",
-      "icon": "\ud83d\udee1",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:50.693813+00:00",
-          "sha256": "ac8a4895a29d8864372e4601c6e3c28bf070c053e5eeaa306e5abcc56e3b2297",
-          "file": "packages/security-center/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:09.876648+00:00",
-          "sha256": "ac8a4895a29d8864372e4601c6e3c28bf070c053e5eeaa306e5abcc56e3b2297",
-          "file": "packages/security-center/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "disposable-sandbox",
-      "name": "Disposable Sandbox",
-      "category": "System",
-      "desc": "Linked-clone a VMware snapshot, share a read-only drop folder, then delete the clone when it powers off.",
-      "icon": "\ud83e\uddca",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:51.138418+00:00",
-          "sha256": "5daee08a9494981b949e477f0e0ef6289bcc52b33796dbec2435e3e97324b99f",
-          "file": "packages/disposable-sandbox/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:10.505646+00:00",
-          "sha256": "5daee08a9494981b949e477f0e0ef6289bcc52b33796dbec2435e3e97324b99f",
-          "file": "packages/disposable-sandbox/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "driver-update-checker",
-      "name": "Driver/Update Checker",
-      "category": "System",
-      "desc": "Review installed drivers and check for driver and software updates.",
-      "icon": "\ud83d\udd27",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:52.476187+00:00",
-          "sha256": "26eb4b63da6dc2f9e5e87bd367f0e9e337a84fd4ce93278d3f7c40db15f2939b",
-          "file": "packages/driver-update-checker/build-1.zmod",
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:45.624321+00:00",
+          "sha256": "9bcb36aa792c883a8449cd4e9872ad0122241bf11b4eb679d6044186535769b9",
+          "file": "packages/ssh-serial/build-2.zmod",
           "author": "official",
           "python_dependencies": {
-            "pywin32": "==312"
+            "paramiko": "",
+            "pyserial": ""
           },
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:12.049947+00:00",
-          "sha256": "26eb4b63da6dc2f9e5e87bd367f0e9e337a84fd4ce93278d3f7c40db15f2939b",
-          "file": "packages/driver-update-checker/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {
-            "pywin32": "==312"
-          },
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "duplicate-file-finder",
-      "name": "Duplicate File Finder",
-      "category": "System",
-      "desc": "Scan folders for byte-identical files and reclaim the wasted space.",
-      "icon": "\ud83e\uddec",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:53.337959+00:00",
-          "sha256": "81350745846707a3f61d30f2fa68f3e542fd48bc337e4ee596448bfb428b968e",
-          "file": "packages/duplicate-file-finder/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:12.915730+00:00",
-          "sha256": "81350745846707a3f61d30f2fa68f3e542fd48bc337e4ee596448bfb428b968e",
-          "file": "packages/duplicate-file-finder/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "environment-checker",
-      "name": "Environment Checker",
-      "category": "System",
-      "desc": "See what's installed for this app \u2014 VLC, Tailscale, WebView2, and more.",
-      "icon": "\ud83e\ude7a",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:53.779212+00:00",
-          "sha256": "33a87a8b7fdd777c9382df8dbd87f28f99dec1afe2fbd1ce2ddb10a4d075ed9a",
-          "file": "packages/environment-checker/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:13.630789+00:00",
-          "sha256": "33a87a8b7fdd777c9382df8dbd87f28f99dec1afe2fbd1ce2ddb10a4d075ed9a",
-          "file": "packages/environment-checker/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
@@ -1241,7 +1804,7 @@
       "icon": "\ud83e\uddf9",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -1271,6 +1834,50 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:46.940745+00:00",
+          "sha256": "1e0e791f06996cd6e42156bc031b80ff4decf2764951ffc1fb1db65d884fbccc",
+          "file": "packages/startup-optimizer/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "pywin32": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "stream-service",
+      "name": "Stream Service",
+      "category": "Network",
+      "desc": "Wake this PC, stream the screen, and control it from your phone over Tailscale",
+      "icon": "\ud83d\udcfa",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 1,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:51.031874+00:00",
+          "sha256": "a3dcaec3ec6923f6159b46eacd18c02e9bbbdfbd4c3baf51b1b247a5a5f6aa8c",
+          "file": "packages/stream-service/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": ">=10.0.0",
+            "aiortc": ">=1.9.0",
+            "av": ">=12.0.0",
+            "mss": ">=9.0.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -1282,7 +1889,7 @@
       "icon": "\ud83d\udda5\ufe0f",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -1312,6 +1919,20 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:53.425767+00:00",
+          "sha256": "4a9a526645a4f59367cd0236324c6ab79ac13103ea75520e257ac01c765edef1",
+          "file": "packages/system-monitor/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "psutil": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
         }
       ]
     },
@@ -1323,7 +1944,7 @@
       "icon": "\u23ea",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
@@ -1349,38 +1970,13 @@
           "bundled_python_dependencies": [],
           "native_dependencies": {},
           "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "app-installer",
-      "name": "App Installer",
-      "category": "Utilities",
-      "desc": "Search and install apps via winget, or run your own custom install commands.",
-      "icon": "\ud83d\udce6",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:57.692227+00:00",
-          "sha256": "c614556679a30aa89aba0fb610bc03e5b98398c3cf11da50ee7c8c96580300f6",
-          "file": "packages/app-installer/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {},
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
         },
         {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:18.325386+00:00",
-          "sha256": "c614556679a30aa89aba0fb610bc03e5b98398c3cf11da50ee7c8c96580300f6",
-          "file": "packages/app-installer/build-1.zmod",
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:53.763998+00:00",
+          "sha256": "580b70f9a24e47db194ba5307a8ec29d3bef27233836ac404f12d27ec951daae",
+          "file": "packages/time-travel/build-2.zmod",
           "author": "official",
           "python_dependencies": {},
           "bundled_python_dependencies": [],
@@ -1390,87 +1986,56 @@
       ]
     },
     {
-      "id": "game-stats-news",
-      "name": "Game Stats & News",
-      "category": "Utilities",
-      "desc": "Live game stats via your own API keys (Fortnite, Steam, or any custom API), plus custom news feeds and saved articles",
-      "icon": "\ud83d\udd79\ufe0f",
+      "id": "video-to-gif-converter",
+      "name": "Video to GIF Converter",
+      "category": "Media",
+      "desc": "Convert video files to optimized GIFs \u2014 no command line.",
+      "icon": "\ud83c\udf9e",
       "publisher": "official",
       "author": "official",
-      "latest_build": 1,
+      "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:32:59.497588+00:00",
-          "sha256": "f45561b66cecd9dd68ec4c21a1b489e90c20d21521b6b6dc1bb251837558c21c",
-          "file": "packages/game-stats-news/build-1.zmod",
+          "published_at": "2026-10-18T17:32:24.215692+00:00",
+          "sha256": "7ad806ae5e8cd1291f4f4fbcd135e0d319b45cfbb1d0a927c3a8dd4d7acec34b",
+          "file": "packages/video-to-gif-converter/build-1.zmod",
           "author": "official",
-          "python_dependencies": {
-            "cryptography": "==50.0.2",
-            "requests": "==2.34.2"
-          },
+          "python_dependencies": {},
           "bundled_python_dependencies": [],
-          "native_dependencies": {},
+          "native_dependencies": {
+            "ffmpeg-win64": "7.1-essentials"
+          },
           "bundled_native_assets": []
         },
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:20.658127+00:00",
-          "sha256": "f45561b66cecd9dd68ec4c21a1b489e90c20d21521b6b6dc1bb251837558c21c",
-          "file": "packages/game-stats-news/build-1.zmod",
+          "published_at": "2026-10-19T01:05:42.173368+00:00",
+          "sha256": "7ad806ae5e8cd1291f4f4fbcd135e0d319b45cfbb1d0a927c3a8dd4d7acec34b",
+          "file": "packages/video-to-gif-converter/build-1.zmod",
           "author": "official",
-          "python_dependencies": {
-            "cryptography": "==50.0.2",
-            "requests": "==2.34.2"
-          },
+          "python_dependencies": {},
           "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
-      "id": "qr-generator",
-      "name": "QR Generator",
-      "category": "Utilities",
-      "desc": "Turns text, URLs, Wi-Fi credentials, or contact info into a QR code you can save or share.",
-      "icon": "\ud83d\udd33",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 1,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:33:01.408465+00:00",
-          "sha256": "7daff1aad0612158bd0b763b4fb784765638e3dd116d5bfced6af7e167afc29d",
-          "file": "packages/qr-generator/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {
-            "Pillow": "==12.3.0",
-            "qrcode": "==8.2"
+          "native_dependencies": {
+            "ffmpeg-win64": "7.1-essentials"
           },
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
           "bundled_native_assets": []
         },
         {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:06:22.981830+00:00",
-          "sha256": "7daff1aad0612158bd0b763b4fb784765638e3dd116d5bfced6af7e167afc29d",
-          "file": "packages/qr-generator/build-1.zmod",
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:37:54.110124+00:00",
+          "sha256": "2fabc8856da05e57447f793d13c7fac4d79ccae9d42d1089612cf4f45aa760e9",
+          "file": "packages/video-to-gif-converter/build-2.zmod",
           "author": "official",
-          "python_dependencies": {
-            "Pillow": "==12.3.0",
-            "qrcode": "==8.2"
-          },
+          "python_dependencies": {},
           "bundled_python_dependencies": [],
-          "native_dependencies": {},
+          "native_dependencies": {
+            "ffmpeg-win64": "7.1-essentials"
+          },
           "bundled_native_assets": []
         }
       ]
