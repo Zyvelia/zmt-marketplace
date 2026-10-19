@@ -1,6 +1,6 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-10-19T12:38:01.297473+00:00",
+  "updated": "2026-10-19T19:51:27.749134+00:00",
   "modules": [
     {
       "id": "ai-chat",
@@ -1046,65 +1046,6 @@
       ]
     },
     {
-      "id": "media-downloader",
-      "name": "Media Downloader",
-      "category": "Media",
-      "desc": "Download from YouTube, TikTok, SoundCloud, and 1000+ sites as MP3 or MP4",
-      "icon": "\u25b6",
-      "publisher": "official",
-      "author": "official",
-      "latest_build": 2,
-      "min_app_version": "4.0.8",
-      "releases": [
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-18",
-          "published_at": "2026-10-18T17:31:29.065995+00:00",
-          "sha256": "8166e903d220c7506dd019c40023589c5bdbbefc7881ab45317b5dc71b47eb81",
-          "file": "packages/media-downloader/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {
-            "mutagen": "==1.48.1",
-            "youtube_dl": "==2021.12.17",
-            "yt-dlp": ">=2024.1.1"
-          },
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 1,
-          "label": "Build 1 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T01:04:14.014617+00:00",
-          "sha256": "8166e903d220c7506dd019c40023589c5bdbbefc7881ab45317b5dc71b47eb81",
-          "file": "packages/media-downloader/build-1.zmod",
-          "author": "official",
-          "python_dependencies": {
-            "mutagen": "==1.48.1",
-            "youtube_dl": "==2021.12.17",
-            "yt-dlp": ">=2024.1.1"
-          },
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        },
-        {
-          "build": 2,
-          "label": "Build 2 \u00b7 2026-10-19",
-          "published_at": "2026-10-19T12:36:48.059898+00:00",
-          "sha256": "dbc566c7a0e8548e7cd8152f2183846d4e9a4d2595b0ee7dcccf45134b0f0b57",
-          "file": "packages/media-downloader/build-2.zmod",
-          "author": "official",
-          "python_dependencies": {
-            "yt-dlp": ">=2024.1.1"
-          },
-          "bundled_python_dependencies": [],
-          "native_dependencies": {},
-          "bundled_native_assets": []
-        }
-      ]
-    },
-    {
       "id": "media-metadata-editor",
       "name": "Media Metadata Editor",
       "category": "Media",
@@ -2036,6 +1977,79 @@
           "native_dependencies": {
             "ffmpeg-win64": "7.1-essentials"
           },
+          "bundled_native_assets": []
+        }
+      ]
+    },
+    {
+      "id": "media-downloader",
+      "name": "Media Downloader",
+      "category": "Media",
+      "desc": "Download from YouTube, TikTok, SoundCloud, and 1000+ sites as MP3 or MP4",
+      "icon": "\u25b6",
+      "publisher": "official",
+      "author": "official",
+      "latest_build": 3,
+      "min_app_version": "4.0.8",
+      "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-18",
+          "published_at": "2026-10-18T17:31:29.065995+00:00",
+          "sha256": "8166e903d220c7506dd019c40023589c5bdbbefc7881ab45317b5dc71b47eb81",
+          "file": "packages/media-downloader/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "mutagen": "==1.48.1",
+            "youtube_dl": "==2021.12.17",
+            "yt-dlp": ">=2024.1.1"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T01:04:14.014617+00:00",
+          "sha256": "8166e903d220c7506dd019c40023589c5bdbbefc7881ab45317b5dc71b47eb81",
+          "file": "packages/media-downloader/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "mutagen": "==1.48.1",
+            "youtube_dl": "==2021.12.17",
+            "yt-dlp": ">=2024.1.1"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 2,
+          "label": "Build 2 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T12:36:48.059898+00:00",
+          "sha256": "dbc566c7a0e8548e7cd8152f2183846d4e9a4d2595b0ee7dcccf45134b0f0b57",
+          "file": "packages/media-downloader/build-2.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "yt-dlp": ">=2024.1.1"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 3,
+          "label": "Build 3 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T19:51:27.629719+00:00",
+          "sha256": "b7b124e1c2312333821a3a889119dc97d3d6a27ffd50fe52f00e8d086df6b85c",
+          "file": "packages/media-downloader/build-3.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "yt-dlp": ">=2024.1.1"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
           "bundled_native_assets": []
         }
       ]
