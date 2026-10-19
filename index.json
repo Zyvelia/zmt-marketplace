@@ -1,6 +1,6 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-10-19T19:51:27.749134+00:00",
+  "updated": "2026-10-19T21:36:43.587323+00:00",
   "modules": [
     {
       "id": "ai-chat",
@@ -2018,6 +2018,20 @@
           "python_dependencies": {
             "mutagen": "==1.48.1",
             "youtube_dl": "==2021.12.17",
+            "yt-dlp": ">=2024.1.1"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-19",
+          "published_at": "2026-10-19T21:36:43.460612+00:00",
+          "sha256": "afd3ec27785977a4305f8dfeb4c04a025217dc28a09ad0a84c716729ffa733d2",
+          "file": "packages/media-downloader/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
             "yt-dlp": ">=2024.1.1"
           },
           "bundled_python_dependencies": [],
