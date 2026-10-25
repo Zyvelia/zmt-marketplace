@@ -1,6 +1,6 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-10-25T02:29:05.951707+00:00",
+  "updated": "2026-10-25T03:19:05.935476+00:00",
   "modules": [
     {
       "id": "ai-chat",
@@ -13,6 +13,24 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:29.323479+00:00",
+          "sha256": "1ab8b71ae214aba3052f53453e7b8b370c4a27b06d4455d17b3671fefd07f7a7",
+          "file": "packages/ai-chat/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "firebase-admin": "",
+            "openai": "",
+            "psutil": "",
+            "pyperclip": "",
+            "requests": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -45,6 +63,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:30.286661+00:00",
+          "sha256": "177683e8f5733fa36b65273ab764c333efd8c2ab405d9affeb7adf53e964c5b5",
+          "file": "packages/app-installer/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:27:42.411745+00:00",
@@ -69,6 +99,18 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:30.555427+00:00",
+          "sha256": "455ad140edc509a6f3ad959c5e1264e100c57227f2664b8847a26617a27e9bc4",
+          "file": "packages/clipboard-manager/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -95,6 +137,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:30.829202+00:00",
+          "sha256": "8de3bd433525ef9e088f8b9b99aad2a5eb57796cdd0e6108010ab2a2eefcd100",
+          "file": "packages/color-picker/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:27:43.375476+00:00",
@@ -120,6 +174,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:31.101865+00:00",
+          "sha256": "b043ab4c0a74eae01e9fe4613d2d48221977fc8ee84c995f1eaf1c25675c6cff",
+          "file": "packages/disposable-sandbox/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:27:43.847057+00:00",
@@ -144,6 +210,20 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:32.197626+00:00",
+          "sha256": "856c0f0f8ad83a165eb03a21d02d52f95009e5af3ac031c6885be507eac0994d",
+          "file": "packages/driver-update-checker/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "pywin32": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -172,6 +252,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:32.660683+00:00",
+          "sha256": "2907d874bb22c8f174f6f1f3e1aed6f5b50506f0521672e8572760fdd1263650",
+          "file": "packages/duplicate-file-finder/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:27:46.157641+00:00",
@@ -196,6 +288,18 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:32.928521+00:00",
+          "sha256": "5e31ea9ae34a8ba6d4bf70c3dcd85b654bbb2fe0640d988814937b4697561e7e",
+          "file": "packages/environment-checker/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -222,6 +326,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:33.200427+00:00",
+          "sha256": "dd69659d0cea30525d689d149e13a44eab19165d858e4091ff55bd35252a79f7",
+          "file": "packages/file-encryption/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:27:47.133830+00:00",
@@ -246,6 +362,21 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:34.536103+00:00",
+          "sha256": "09e4e71de9114088905fd0f48202856e792ad33e9ba0012c4600eab62a3a08bc",
+          "file": "packages/file-manager/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0",
+            "mutagen": "==1.48.1"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -275,6 +406,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:35.014013+00:00",
+          "sha256": "7583929482d60a9b909299e2240afc6db442ff0572737bfcdaf55e48fe480553",
+          "file": "packages/file-shredder/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:27:52.333219+00:00",
@@ -300,6 +443,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:35.281241+00:00",
+          "sha256": "50dcdcd89de187b3bd09b0c739a01b100773dc0cd6355f77ead0b5e3e2ec4435",
+          "file": "packages/folder-generator/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:27:52.744031+00:00",
@@ -324,6 +479,20 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:37.244764+00:00",
+          "sha256": "6aee74c21be5a47c7e1204069de93832803f26591c06eaffd5513352ca39f87f",
+          "file": "packages/game-server-manager/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "requests": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -351,6 +520,21 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:38.795992+00:00",
+          "sha256": "f03ad436492a460fc5331f8aee0d6e8a89e5a302cc129ec3e8b0cedc43b598d3",
+          "file": "packages/game-stats-news/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "cryptography": "==49.0.0",
+            "requests": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -380,6 +564,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:39.213007+00:00",
+          "sha256": "ac79d812f81e6102407857d30abb74a100d3123e9ffdb808b01f5b0ee8f8eb35",
+          "file": "packages/gaming-hub/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:28:02.774138+00:00",
@@ -405,6 +601,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:39.480000+00:00",
+          "sha256": "66d6c99b85325370a39bbf4f419da8a8e0f7f24dc6933d76a0d001484950afc8",
+          "file": "packages/hash-tools/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:28:04.123617+00:00",
@@ -429,6 +637,20 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:40.649515+00:00",
+          "sha256": "8469c1aede32a79ad99e382ea2beb1cc65b872bfe8f33e9cdd438bdd28a8ee61",
+          "file": "packages/icon-favicon-generator/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -457,6 +679,20 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:41.998982+00:00",
+          "sha256": "d439e363832112d5f538cebc4d767903aa8bfb8c26c4ce19824c4fcb6e3993d3",
+          "file": "packages/image-palette-extractor/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:28:07.759955+00:00",
@@ -483,6 +719,22 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:43.722361+00:00",
+          "sha256": "415378592ebd4c68136c3e63b176328aa901ac95a72cb6246edbc5cddf3f40d9",
+          "file": "packages/mangadex-reader/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "pywin32": "",
+            "requests": "",
+            "winrt-runtime": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -513,6 +765,20 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:45.072796+00:00",
+          "sha256": "1349ecbf0c1880ff5fb6fb2ed93aa5de3e1180a7c617552f2084beb7c0105b95",
+          "file": "packages/media-downloader/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "yt-dlp": ">=2024.1.1"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:28:14.867517+00:00",
@@ -539,6 +805,22 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:17:46.641306+00:00",
+          "sha256": "e74c0a50b6e1c91b6b81d898a57f890936ed5f9e16c47b657bbb56cebcb50a22",
+          "file": "packages/media-metadata-editor/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0",
+            "mutagen": "==1.48.1",
+            "pywin32": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -568,6 +850,25 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:11.770390+00:00",
+          "sha256": "06eab8ca594d358a74a1d3d0cf8488f63bc077936ad9594146738aa1cdd376f7",
+          "file": "packages/media-player/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "mutagen": "==1.48.1",
+            "playwright": "",
+            "python-vlc": "",
+            "watchdog": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {
+            "vlc-win64": "3.0.21"
+          },
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -601,6 +902,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:25.113123+00:00",
+          "sha256": "231a11a6ca3aa545600c5cdd26693f8eb055849dd8d31609c3c3a402d66e717f",
+          "file": "packages/module-development-guide/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:28:33.177388+00:00",
@@ -625,6 +938,22 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:28.914538+00:00",
+          "sha256": "55de6a9a25b4f76f38af957be99a5258fb3b086222a0863c3c5e7204246cb56b",
+          "file": "packages/network-auditor/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "python-nmap": "",
+            "requests": "",
+            "scapy": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -655,6 +984,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:29.290310+00:00",
+          "sha256": "90b06ed2a27a4f87d881ecf8b948d4f9e5d1960d4887f305b6724771ebb47dcb",
+          "file": "packages/notes/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:28:38.575960+00:00",
@@ -679,6 +1020,21 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:30.613316+00:00",
+          "sha256": "a13b255e0a1b6fb8a871b9a890d2e658bdc74951187fd14c2e96f718507c15d8",
+          "file": "packages/qr-generator/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": "==12.3.0",
+            "qrcode": "==8.2"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -708,6 +1064,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:31.086411+00:00",
+          "sha256": "c54eabeaf8fc861394063b360a82095fcc49d7a986bf7072090dd4bad8669291",
+          "file": "packages/quick-send/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:28:40.847052+00:00",
@@ -733,6 +1101,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:31.362451+00:00",
+          "sha256": "c0322051a601e10ba814ab8738572baa023f93389b5b7326c31c27889c854067",
+          "file": "packages/remote-hub/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:28:41.239419+00:00",
@@ -757,6 +1137,22 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:37.214396+00:00",
+          "sha256": "8d17efa162fba30091c3cee965d93806626e711572ee77aeba6fe81c1f300e3d",
+          "file": "packages/save-editor/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "bl3-cli-saveedit": ">=1.18.0",
+            "setuptools": ">=65.0.0",
+            "ttwl-cli-saveedit": ">=1.0.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -787,6 +1183,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:37.591535+00:00",
+          "sha256": "6460f56e809e0ed82716df15fe3f45daa3dfdca340a9575c7b9fd9c7d2d76c07",
+          "file": "packages/secure-vault/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:28:47.897064+00:00",
@@ -812,6 +1220,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:37.865344+00:00",
+          "sha256": "cce70e0d2d9d8a428f703ae888926823dad69ed8e3c5d84b08eea02beb4aff22",
+          "file": "packages/security-center/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:28:48.293471+00:00",
@@ -836,6 +1256,22 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:39.686075+00:00",
+          "sha256": "7732de12ed88ea900bd558c1237d18c0231bd7d54215b8817c630c16fcafd5a3",
+          "file": "packages/soundboard/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "numpy": "==2.5.2",
+            "sounddevice": "",
+            "soundfile": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -866,6 +1302,21 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:42.061153+00:00",
+          "sha256": "df463acf3e615b96d404e4f94e1a1b26b99815081721b6e512026d4178ec9e46",
+          "file": "packages/ssh-serial/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "paramiko": "",
+            "pyserial": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:28:52.683727+00:00",
@@ -894,6 +1345,20 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:43.218288+00:00",
+          "sha256": "25bbe250cf3a79940e2cc149093cf3ead52d19e83e006bcfbc98385e93e6ef3c",
+          "file": "packages/startup-optimizer/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "pywin32": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:28:54.142409+00:00",
@@ -920,6 +1385,23 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:46.346428+00:00",
+          "sha256": "3a8bc1ade66713220f3cc79a017e6b2e186c6eb58ce3b27f87bb431fc88f4111",
+          "file": "packages/stream-service/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "Pillow": ">=10.0.0",
+            "aiortc": ">=1.9.0",
+            "av": ">=12.0.0",
+            "mss": ">=9.0.0"
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
@@ -951,6 +1433,20 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:48.780426+00:00",
+          "sha256": "808e68514c27637578451fb66940d2937ebf7f7d32bb9dded008c4afcad9b477",
+          "file": "packages/system-monitor/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {
+            "psutil": ""
+          },
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:29:00.597859+00:00",
@@ -978,6 +1474,18 @@
       "min_app_version": "4.0.8",
       "releases": [
         {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:49.050714+00:00",
+          "sha256": "b2735515167dc7cb274335baff63373a19f9d698d3b221531681d20e8acdd4c3",
+          "file": "packages/time-travel/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {},
+          "bundled_native_assets": []
+        },
+        {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
           "published_at": "2026-10-25T02:29:01.110645+00:00",
@@ -1002,6 +1510,20 @@
       "latest_build": 2,
       "min_app_version": "4.0.8",
       "releases": [
+        {
+          "build": 1,
+          "label": "Build 1 \u00b7 2026-10-25",
+          "published_at": "2026-10-25T03:18:57.626561+00:00",
+          "sha256": "0af801984a9e0546706d75b4976107082f30529f937caf05de17d67405b47efa",
+          "file": "packages/video-to-gif-converter/build-1.zmod",
+          "author": "official",
+          "python_dependencies": {},
+          "bundled_python_dependencies": [],
+          "native_dependencies": {
+            "ffmpeg-win64": "7.1-essentials"
+          },
+          "bundled_native_assets": []
+        },
         {
           "build": 2,
           "label": "Build 2 \u00b7 2026-10-25",
