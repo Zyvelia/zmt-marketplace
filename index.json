@@ -1,6 +1,6 @@
 {
   "name": "Z's Multi Tool Marketplace",
-  "updated": "2026-10-25T03:52:17.284953+00:00",
+  "updated": "2026-10-25T04:09:20.795264+00:00",
   "modules": [
     {
       "id": "ai-chat",
@@ -16,8 +16,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:31.631977+00:00",
-          "sha256": "c65a61fb03e683cb13f920675cc3492ab13de5c40b22e92e1f586123e5d1df2d",
+          "published_at": "2026-10-25T04:07:13.372858+00:00",
+          "sha256": "413887188b33e54b9dcfa0aa94d5706e3497f76c0437797e5000a911a412e0ad",
           "file": "packages/ai-chat/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -47,8 +47,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:32.583904+00:00",
-          "sha256": "7cf857f180d5dbf6597ab8e73505fdd5b922d2fb7535c600eca08d7cbe66ed5c",
+          "published_at": "2026-10-25T04:07:14.315258+00:00",
+          "sha256": "72a9f80cb7d71ef7c7d5aef06ec7663f2cedae005580ceb01264134761852072",
           "file": "packages/app-installer/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -72,8 +72,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:33.166470+00:00",
-          "sha256": "558612a2199541c3ad14209da7e9d20165f666b0e7e25f0697323889f2caebb6",
+          "published_at": "2026-10-25T04:07:14.689308+00:00",
+          "sha256": "451e7efe40a10bc359495ad2daf8e9eb5ec7bf78c91e5b424cdf5122625445d2",
           "file": "packages/clipboard-manager/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -97,8 +97,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:33.709981+00:00",
-          "sha256": "d3bb83ba2ee0047249afb1c3d881dec20d58a2ea33858762b819ed22ad46b256",
+          "published_at": "2026-10-25T04:07:15.052338+00:00",
+          "sha256": "c3aed550a720af8c70666b8f045bfa8e53bdfe0f6c623aba30337b1b456480a1",
           "file": "packages/color-picker/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -122,8 +122,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:34.282280+00:00",
-          "sha256": "c317efc281433c9e13f85b61f5877092f9428640930ec2b34e224ece32b9fddd",
+          "published_at": "2026-10-25T04:07:15.425272+00:00",
+          "sha256": "583e4094994443bf0c013e202553937cea737dbf2ac3ab641dbf7b15057c265e",
           "file": "packages/disposable-sandbox/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -147,8 +147,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:35.979374+00:00",
-          "sha256": "64789191e067023df2a186782c28c6f7660679255fd69d50fc90dbb8a096574e",
+          "published_at": "2026-10-25T04:07:16.990724+00:00",
+          "sha256": "809bbd5264e5fe52bf5d470dd76379a29913096a2ba3012b8c519318e95274da",
           "file": "packages/driver-update-checker/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -174,8 +174,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:36.550528+00:00",
-          "sha256": "afc3345d4e683e18e864a53f8526d62d7cf960d64fb9414f41d11bffbc1238e6",
+          "published_at": "2026-10-25T04:07:17.474481+00:00",
+          "sha256": "0a02a0eb93fd2af35c44764a18896be9f1296b4420207173faaf1c756dbe66f9",
           "file": "packages/duplicate-file-finder/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -199,8 +199,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:37.185838+00:00",
-          "sha256": "ab57122a01f704500c57383c0565d0f69edc1c268b39a399fa3c001d60fe01ea",
+          "published_at": "2026-10-25T04:07:17.793290+00:00",
+          "sha256": "455e58c9f5e14c0e5f39c3602cace3fd27e1d85d67ff20dc6f256c8dcb4605f1",
           "file": "packages/environment-checker/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -224,8 +224,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:37.726000+00:00",
-          "sha256": "1f8acf4335f8a294738324c8aa85a2e8cd773751814eb9cd4d7ac79e0792debf",
+          "published_at": "2026-10-25T04:07:18.108182+00:00",
+          "sha256": "aad153d4ae0e35d6724d88150ecb7b376ba7f87f234d4772bdde775841eda9e1",
           "file": "packages/file-encryption/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -249,13 +249,13 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:39.613065+00:00",
-          "sha256": "aef602a3e08dace11996303a28e5d3c4aa85ee56b9086f862111d0f2ba3190f8",
+          "published_at": "2026-10-25T04:07:21.770171+00:00",
+          "sha256": "f1dcde8c65ce21a5b9fa86a9c66e147a04298fd0dfc1da891237fe74cd66a682",
           "file": "packages/file-manager/build-1.zmod",
           "author": "official",
           "python_dependencies": {
             "Pillow": "==12.3.0",
-            "mutagen": "==1.48.1"
+            "mutagen": "==None"
           },
           "bundled_python_dependencies": [],
           "native_dependencies": {},
@@ -277,8 +277,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:40.188449+00:00",
-          "sha256": "78d84cd8d2e256ef7acd3ad13cb28f9756f208dcccd3a6a54c8059f43ec66792",
+          "published_at": "2026-10-25T04:07:22.308608+00:00",
+          "sha256": "bbc656f11370c93702f7570d73eef47cbaee48bc8c54d7b3568d0709725253e9",
           "file": "packages/file-shredder/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -302,8 +302,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:40.824468+00:00",
-          "sha256": "bd6a627fd4cdf715f2444418eaca11ce1ca7ed6f05cbee979cd919df4fff6016",
+          "published_at": "2026-10-25T04:07:22.637747+00:00",
+          "sha256": "77fe0c16d51dec3ff2f034dbd3d158f2a65b4b2a8e0ea14a50aecff0266e6afe",
           "file": "packages/folder-generator/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -327,8 +327,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:43.405969+00:00",
-          "sha256": "102a5c7e73ca0bc252b55eb5c425212ad718441aa75516282a8ed1a6e8295e5f",
+          "published_at": "2026-10-25T04:07:25.362262+00:00",
+          "sha256": "f7e2b705adfbb0ed67b150c392e1f5d2193a8a4d74e962577af5b839366e401b",
           "file": "packages/game-server-manager/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -354,8 +354,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:45.489551+00:00",
-          "sha256": "c8af05f66abdd213d803056d92dd140505508e4a3e16678dff8f5c03a04a2622",
+          "published_at": "2026-10-25T04:07:27.365892+00:00",
+          "sha256": "21d4f90799912ca6254ca213ce3dc0d7fbd11ce737f35c4f8898535ab9cfed43",
           "file": "packages/game-stats-news/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -382,8 +382,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:46.006653+00:00",
-          "sha256": "6b725c97cbe324277597ffbaa1cfc8503261e120b3b72915cf2535023c871e76",
+          "published_at": "2026-10-25T04:07:27.853640+00:00",
+          "sha256": "fda1dc7930afca714d25ea817d2e11af7e9b2ef91087b2240c50d6a3f8cea443",
           "file": "packages/gaming-hub/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -407,8 +407,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:46.550224+00:00",
-          "sha256": "baacdd3e68f6a971b469b4579c5cf7c8abdcf8e536cda287b60e1a122f3fe2e6",
+          "published_at": "2026-10-25T04:07:28.184778+00:00",
+          "sha256": "4420a79360a67ce55c1fb9788e283c4245bd670ce35ac4c0bbc9e34631837f38",
           "file": "packages/hash-tools/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -432,8 +432,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:48.267999+00:00",
-          "sha256": "297717d4b7ddef7ded95396879d79178edbcc78f4841f960cd1343e88aab6dcb",
+          "published_at": "2026-10-25T04:07:29.740355+00:00",
+          "sha256": "d0092184d199dd368ba9219d18f9b50df5153876f7786345c7cba97eb39ce545",
           "file": "packages/icon-favicon-generator/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -459,8 +459,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:50.171355+00:00",
-          "sha256": "d502aa08f66c29de197e4c44e689fd6b7234e0b8d589f7c40deeba9f2d1922c3",
+          "published_at": "2026-10-25T04:07:31.478983+00:00",
+          "sha256": "79c91c6df446427ca83e428d20736c2e6823f0874b9a9cf15aa2b31048f1f156",
           "file": "packages/image-palette-extractor/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -486,8 +486,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:52.515866+00:00",
-          "sha256": "65bc61f02c49ff15d82186ebf00040afe402310cef130a82c7d2b98cd7cc7739",
+          "published_at": "2026-10-25T04:07:33.571571+00:00",
+          "sha256": "8a6097de9838e91cefa3a765d3acb7d401944be7c0e0fdabc17f6aa341a89b0c",
           "file": "packages/mangadex-reader/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -515,8 +515,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:54.434904+00:00",
-          "sha256": "218f79dfffd9914288592198aa5e8551008097b7f851fe6517dcb682867561ef",
+          "published_at": "2026-10-25T04:07:35.449072+00:00",
+          "sha256": "bdade8afe70828de47f3bf0949221350133b66e5e3c6edfdbafe4446c9cd1047",
           "file": "packages/media-downloader/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -542,13 +542,13 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:50:56.260027+00:00",
-          "sha256": "c590c11330ed5b448eb81a24ef505f483551fe7012e4946fc0e4411dbf579874",
+          "published_at": "2026-10-25T04:07:39.651993+00:00",
+          "sha256": "85f2cee2671429fba0a0ec89391d98bc3ec464ac3787638737bc76ca22dd3d0f",
           "file": "packages/media-metadata-editor/build-1.zmod",
           "author": "official",
           "python_dependencies": {
             "Pillow": "==12.3.0",
-            "mutagen": "==1.48.1",
+            "mutagen": "==None",
             "pywin32": ""
           },
           "bundled_python_dependencies": [],
@@ -571,13 +571,13 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:18.440149+00:00",
-          "sha256": "2455a50cf80c624bc6e739400419b6af8c7bf3d8282f5ac51c6a7499bb974dd9",
+          "published_at": "2026-10-25T04:08:17.629212+00:00",
+          "sha256": "086d2861a0bab64071405b2ed79c3f0767c5e88676acc3839dad6a6951ca0c86",
           "file": "packages/media-player/build-1.zmod",
           "author": "official",
           "python_dependencies": {
-            "mutagen": "==1.48.1",
-            "playwright": "",
+            "mutagen": "==None",
+            "playwright": "==None",
             "python-vlc": "",
             "watchdog": ""
           },
@@ -603,8 +603,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:32.172763+00:00",
-          "sha256": "09b35dca90bfe6f271dc1031577301dc3a3de6849394719f75aee04370889f22",
+          "published_at": "2026-10-25T04:08:31.655538+00:00",
+          "sha256": "4cda62ea781402b06a367ed638921ec1c70baf7f0a44c7ef2374b31ba4d2f82f",
           "file": "packages/module-development-guide/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -628,8 +628,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:36.755916+00:00",
-          "sha256": "63bf0c3a8a77c5eb724d61f606a78ad0c21654ca4ec607ae07a4bb7873d38dd7",
+          "published_at": "2026-10-25T04:08:36.375262+00:00",
+          "sha256": "36bb737bf0333e17d89949b72646e60b7ab6b1f89a6093f77c934fa068792e91",
           "file": "packages/network-auditor/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -657,8 +657,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:37.741445+00:00",
-          "sha256": "8e22ea0f21478068d45943422241a16ad0f0d293c84bc063c5928dcbf89deaca",
+          "published_at": "2026-10-25T04:08:36.824084+00:00",
+          "sha256": "bb5222566360680c8553dc1406e770dbb910eb08fa82d7065b04b5cfef9652f5",
           "file": "packages/notes/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -682,8 +682,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:39.750772+00:00",
-          "sha256": "751dc3813510ac4f9d8d65ba0fdfecc4436401dad1174fb2a99f4498f31d72b2",
+          "published_at": "2026-10-25T04:08:38.713082+00:00",
+          "sha256": "15a055194c284c8f6603fa9d637bf69db5b4b1afbdd1d63c2dac70124e2c7733",
           "file": "packages/qr-generator/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -710,8 +710,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:40.332427+00:00",
-          "sha256": "2e52765310ced0330e3e05ac96cd9af58cf6bef759fa6b27868744b9aa33ed24",
+          "published_at": "2026-10-25T04:08:39.266622+00:00",
+          "sha256": "34b98926eccb026ddd2c78531ffe8e68bc4e084c6f848cb25a085f2d156d09b8",
           "file": "packages/quick-send/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -735,8 +735,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:40.952573+00:00",
-          "sha256": "780f7026adde7edc51d6b9a7b5ce82a46a20696567233db03e44ba2764a571d9",
+          "published_at": "2026-10-25T04:08:39.673429+00:00",
+          "sha256": "121a857c4705335b533c84aa25a83e35850c7e2bd43196564a6be48d2203093d",
           "file": "packages/remote-hub/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -760,8 +760,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:47.118485+00:00",
-          "sha256": "2ab3ce0dedd81a1fd4d02dc035c062590dd9155b4bd0c7ee9fa1d0881d3edd9e",
+          "published_at": "2026-10-25T04:08:46.154410+00:00",
+          "sha256": "5f7bd585e1b4d823b28e970343ddd36e892dd3165e37a5a7f06fa8eb130282dd",
           "file": "packages/save-editor/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -789,8 +789,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:48.176876+00:00",
-          "sha256": "2a70ea8f8b0d39cf1c94a60f7e37d1c3039d22badcab378aeb28a117f521a63d",
+          "published_at": "2026-10-25T04:08:46.639842+00:00",
+          "sha256": "9378e852eac2ddb811ab41340d8777801f05537abf3b7f0306e51f450aa5997a",
           "file": "packages/secure-vault/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -814,8 +814,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:48.827286+00:00",
-          "sha256": "99a81fcb025d4c99db4b3f55da6f7c57d60b4a64c6a5c5d91d4e5211187eadbd",
+          "published_at": "2026-10-25T04:08:46.985004+00:00",
+          "sha256": "f6e2983f1722e5c4bbcb0c961056fa928922d3e56ff88efd59b641da55d917f8",
           "file": "packages/security-center/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -839,8 +839,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:51.200205+00:00",
-          "sha256": "3169f14dbd6cd55e7b9ec6c173d91986c5e2cdd2a8d556db0f599436c70164da",
+          "published_at": "2026-10-25T04:08:49.208909+00:00",
+          "sha256": "db7ed763287cd5ec5b73e89359e60c4dc89fe24b327e4f8236800f0f3bf9eb97",
           "file": "packages/soundboard/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -868,8 +868,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:53.605495+00:00",
-          "sha256": "0ec413e798ec37df0fd7f1917621a34ea402666de83c7e76c08b4cd2033b9098",
+          "published_at": "2026-10-25T04:08:51.838342+00:00",
+          "sha256": "7a01f65e102119886515957796be45c85c9eec6d4f0bc5ed73cb2926eeb3fc37",
           "file": "packages/ssh-serial/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -896,8 +896,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:55.210013+00:00",
-          "sha256": "07e4894831abd6e920407aaeb57e17ac9e7f507617c55b2eeb59af5620f4635b",
+          "published_at": "2026-10-25T04:08:53.534684+00:00",
+          "sha256": "76809533b1c8c74b5e368148131fdb3dcdb5431b33e833cf2b7b31dee9277b82",
           "file": "packages/startup-optimizer/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -923,8 +923,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:51:58.481890+00:00",
-          "sha256": "52582149101afdfd9a43437cd63a7ff6dc7468b6b80c5cf7314d854339b6b428",
+          "published_at": "2026-10-25T04:08:57.523994+00:00",
+          "sha256": "6b6d65f17fa8f8185469a0cf53d56086cc67bf344255509b50c707c1082a3814",
           "file": "packages/stream-service/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -953,8 +953,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:52:01.192292+00:00",
-          "sha256": "47ed642a185464efaf5d19c2f7a35abfae9e20f3088f09bc49f5eddad8c94b92",
+          "published_at": "2026-10-25T04:09:00.961079+00:00",
+          "sha256": "ca2cff83331e3d7d27c1b6fe1130cba9da65e2b74d4542aef30caa810cbd6bdf",
           "file": "packages/system-monitor/build-1.zmod",
           "author": "official",
           "python_dependencies": {
@@ -980,8 +980,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:52:01.731920+00:00",
-          "sha256": "50b5afa596c7013de279187c90ff7f6595fb55cb6de1ceabc6c66f06332bcc91",
+          "published_at": "2026-10-25T04:09:01.306485+00:00",
+          "sha256": "10e0b9fa16f2b832d8e2e4f8f3833f0c316d59c33b62f9f802c0d19ac4c5792e",
           "file": "packages/time-travel/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
@@ -1005,8 +1005,8 @@
         {
           "build": 1,
           "label": "Build 1 \u00b7 2026-10-25",
-          "published_at": "2026-10-25T03:52:09.662898+00:00",
-          "sha256": "6b243a1dc53391b8f6a94ca0399ab47245af40083b4e1ac844f7af2bc20cf9e4",
+          "published_at": "2026-10-25T04:09:12.508864+00:00",
+          "sha256": "58efc24dbe326bec3072dc7fff235cebf380ebc606cdd05d0cf7889807924296",
           "file": "packages/video-to-gif-converter/build-1.zmod",
           "author": "official",
           "python_dependencies": {},
